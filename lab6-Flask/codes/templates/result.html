@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Result</title>
+</head>
+<body>
+    <h1>Search</h1>
+    <form action="result">
+        <label>keyword</label>
+        <input type="name" name="keyword"><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="submit" name="Search">
+    </form>
+    <hr>
+    <h1>Search Result for "{{ keyword }}"</h1>
+
+    {% for texts in TEXTS %}
+        <div>
+            <!-- 生成带有超链接的标题 -->
+            <a href={{ texts.url }}><i><font size = "4" color="blue"><b>{{ texts.title }}</b></font></i></a><br>
+            <!-- 生成带有关键词上下文的内容 -->
+            <i><font size = "3">{{ texts.left }}</font><font size = "3" color="red">{{ keyword }}</font><font size = "3">{{ texts.right }}</font></i>     <br>    
+            <!-- 生成网页链接，如果是可点击的形式可直接用注释的语句 -->
+            <!-- <i><a href={{ texts.url }} style="color:green" >{{ texts.url }}</a></i><br> -->
+            <i><font size = "3" color="green">{{ texts.url }}</font></i>    <br> <br><br>
+        </div>
+    {% endfor %}
+
+
+</body>
+</html>

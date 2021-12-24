@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>泥巴网 - 精品网页游戏平台</title>
+<meta name="description" content="泥巴网，精品网页游戏平台。" />
+<meta name="keywords" content="泥巴网,精品网页游戏平台" />
+<link href="/skin/default/css/nibahome2019.css?t=20200911160635" type="text/css" rel="stylesheet" rev="stylesheet" media="screen" />
+<script type="text/javascript" src="http://css.17yy.com/js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="http://css.17yy.com/js/webgameSearch.js?t=20191030_2"></script>
+<base target="_blank">
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?53c83b04379f2a89dec4ae757bf1790c";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</head>
+<body>
+
+<!-------顶部开始-------->
+
+<div class="hd-top">
+    <div class="hd-top-1">
+        <div class="hd-left fl">
+            <a onclick="SetHome(this,'http://www.niba.com');" href="javascript:void(0)" target="_self" class="top-index">设为首页</a>
+            <a onclick="AddFavorite('泥巴游戏',location.href)" href="javascript:void(0)" target="_self" class="top-keep">收藏</a>
+            <a href="javascript:void(0);" target="_self" class="top-box" onclick="toDesktop(location.href, '泥巴游戏')">放到桌面</a>
+        </div>
+
+        <!--<div class="hd-right fr">
+
+            <!------登录状态判定------->
+
+        </div>-->
+   </div>
+<div class="clear"></div>
+</div>
+
+<!-------顶部结束-------->
+
+
+<!-------导航开始-------->
+
+<div class="hd-top-2">
+        <div id="nav_top">
+              <div id="logo"><a href="http://www.niba.com/" hidefocus="true" title="泥巴网"><img src="/skin/default/images/nibalogo100.png" /></a></div>
+
+		<div id="games_top_category">
+			<ul>
+                <li><a href="http://www.niba.com/">首页</a></li>
+                <li><a href="http://www.niba.com/e/member/my/" >用户中心</a></li>
+                <li><a href="/gamecenter.html" >游戏中心</a></li>
+                <li><a href="http://www.niba.com/e/payapi/">充值中心</a></li>
+                <li><a href="http://www.niba.com/present.html">礼品兑换</a></li>
+                <li><a href="http://www.niba.com/e/member/register/index.php?&groupid=1" >实名注册</a></li>
+                <li><a href="http://www.niba.com/webgametop.html" >排行榜</a></li>
+                <li><a href="http://www.niba.com/kefu.html">客服中心</a></li>
+
+<div class="clear"></div>
+
+			</ul></div>
+                      <div id="search">
+				<form action="/gamecenter.html" method="get" enctype="multipart/form-data" accept-charset="UTF-8">
+					<input autocomplete="off" name="k" id="keywords" size="18" class="keyboard fl" placeholder="搜索你喜欢的游戏" value="">
+					<input type="submit" value="" class="soso fl">
+				</form>
+                                <iframe  id="fastIframe" style="display: none;"></iframe>
+                                <div id="fastSearch" style="display:none;"><ul></ul></div>
+			</div>
+        </div>
+
+<div class="clear"></div>
+</div>
+
+
+<!-------导航结束-------->
+	
+<script>
+var strVar = "";
+var version = Math.random();
+  strVar += '<iframe src="/nibaweb.html?v='+version +'" border="0" marginwidth="0" marginheight="0" frameborder="no" height="2700" scrolling="no" width="100%" id="webgamePage"></iframe>';
+document.write(strVar);
+</script>
+<script type="text/javascript" src="/skin/default/js/niba_function.js"></script>
+	<script>
+		$(document).click(function(e){
+			var target = $(e.target);
+			if(target.closest('.hd-top-2').length != 0) return;
+			$('#fastSearch').hide();
+			$('#fastIframe').hide();
+		});
+		$("#webgamePage").load(function(){
+			var webgame = $("#webgamePage").contents();
+			var iframe_h = webgame.height();
+			$("#webgamePage").height(iframe_h);
+		});
+
+	</script>
+</body>
+
+</html>

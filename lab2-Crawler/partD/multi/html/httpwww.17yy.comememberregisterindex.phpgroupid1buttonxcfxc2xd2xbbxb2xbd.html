@@ -1,0 +1,217 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>注册账号 - 17yy经典小游戏</title>
+<link href="http://css.17yy.com/style/register.css" rel="stylesheet" type="text/css" />
+<link href="http://css.17yy.com/style/sm_t425u.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://css.17yy.com/js/register.js?t=20191101"></script>
+<!--[if IE 6]>
+<script src="http://css.17yy.com/js/iepng.js" type="text/javascript"></script>
+<script language="javascript" type="text/javascript">
+DD_belatedPNG.fix('div, ul, img, li, input,p,ul,ol,h1,h2,h3,a,span');
+</script>
+<![endif]-->
+</head>
+<body>
+<div id="al_nv">
+ <div id="al_nv_c">
+	<a id="yy_logo" href="http://www.17yy.com/" title="17yy经典小游戏"></a>
+    <div id="search">
+				<form action="http://www.17yy.com/e/search/index.php" name="searchform" method="post" id="searchform" onsubmit="return stFor()">
+				 <input autocomplete="off" name="keyboard" size="18" class="into" id="keyboard" value="">
+				 <input type="submit" value="" class="soso">
+				 <input type="hidden" name="show" value="title">
+				 <input type="hidden" name="tempid" value="1">
+				 <input type="hidden" value="flash" name="tbname">
+				<div id="smart_arrow" style="left:28px; top:26px;"><div class="hide"></div></div></form>
+                <div class="clear"></div>
+	</div>
+    <div class="nv_list">
+            	<a target="_blank" href="http://www.17yy.com/">首页</a>
+                <a target="_blank" href="http://www.17yy.com/dongzuo/">动作</a>
+                <a target="_blank" href="http://www.17yy.com/yizhi/">益智</a>
+                <a target="_blank" href="http://www.17yy.com/tiyu/">体育</a>
+                <a target="_blank" href="http://www.17yy.com/sheji/">射击</a>
+                <a target="_blank" href="http://www.17yy.com/gaoxiao/">搞笑</a>
+        <span class="whole_nv1" id="whole_nv" onmouseover="navi();" onmouseout="navi_no()">
+        <a target="_self" href="javascript:void(0)">全部</a>
+            <div id="w_line"></div>
+            <div id="w_nv">
+                <a target="_blank" href="http://www.17yy.com/maoxian/">冒险</a>
+                <a target="_blank" href="http://www.17yy.com/maoxian/">棋牌</a>
+                <a target="_blank" href="http://www.17yy.com/celue/">策略</a>
+                <a target="_blank" href="http://www.17yy.com/minjie/">敏捷</a>
+                <a target="_blank" href="http://www.17yy.com/xiuxian/">休闲</a>
+                <a target="_blank" href="http://www.17yy.com/zhuangban/">换装</a>
+                <a target="_blank" href="http://www.17yy.com/ertong/">儿童</a>
+                <a target="_blank" href="http://www.17yy.com/jingying/">经营</a>
+                <a target="_blank" href="http://www.17yy.com/s/shuangren/">双人</a>
+                <a target="_blank" href="http://www.17yy.com/wangye/">网页</a>
+                <a target="_blank" href="http://www.17yy.com/s/majiang/">麻将</a>
+                <a target="_blank" href="http://www.17yy.com/youxigonglue/">攻略</a>
+            </div>
+
+        </span>
+    </div><!---->
+    <div class="nv_R">
+    	<!--<span id="log_user"><a target="_self" id="Tlog" href="javascript:void(0)" onclick="login1()">登录</a></span>-->
+         <span id="log_user"><!--<a id="usna" href="#">yani</a><a id="logOut" href="#">退出</a>--></span>
+        <span class="g_play_b1" id="g_play_b" onmouseover="his1();" onmouseout="his1_no()"><a target="_self" class="g_play" href="javascript:void(0)">我玩过的</a>
+        	<div id="w_li"></div>
+            <ul id="his_2"></ul>
+            <div class="clear"></div>
+        </span>
+	<!--<div class="guanzhu"></div>-->
+    <!--<a class="g_index" target="_self" onclick="saveToDesktop();return false;" href="javascript:void(0);">保存到桌面</a>-->
+        <div class="clear"></div>
+    </div>
+    <div class="clear"></div>
+   </div>
+</div>
+<style type="text/css">
+	*{margin:0px;padding:0px;font-family: 'Microsoft YaHei'!important;}
+	body{background: #fff url(http://www.niba.com/skin/default/images/cot_bk120180829.png) repeat-x left -130px!important;}
+	.reg_main{width: 960px;margin:0px auto;overflow:hidden;}
+	.reg_title,.reg_box{width: 760px;float:right;overflow: hidden;padding: 20px 0px;}
+	.reg_title{font-size:22px;margin:30px 22px 5px 0px;}
+	.reg_box{margin-right:20px;}
+	#regForm>div{float:left;}
+	.reg_main .r_row{overflow:hidden;margin-bottom: 22px;width:760px;}
+	.reg_main .r_row>div{float:left;height:36px;line-height:36px;}
+	.reg_main .r_row .r_left{width:72px;font-size:14px;color:#3B3B3B;text-align: justify;text-align-last: justify;-moz-text-align-last:justify;text-justify:inter-ideograph;}
+	.reg_main .r_row .r_right{margin-left: 20px;}
+	.reg_main .r_row .r_right input{width:260px;height:32px;line-height:32px;outline: 0;border-radius: 2px;border: 1px solid #ccc;text-indent:10px;font-size:14px;margin-top:1px;background:#fff;}
+	.reg_main .r_row .r_tips, #agree_tips{font-size:12px;color:#a9a9a9;margin-left:15px;width:360px;float:left;position:relative;}
+	.reg_main .r_row .r_tips img{position:absolute;top:10px;left:0px;}
+	#agree_tips{height:25px;line-height:25px;margin-left: 53px;}
+	.reg_main .r_agree{height:25px;position:relative;width: 700px;margin-left: 92px;margin-bottom:28px;}
+	.reg_main .r_agree label{float:left;font-size: 12px;padding-left: 17px;height: 20px;line-height: 20px;color:#666;}
+	.reg_main .r_agree label input {position: absolute;left: 0px;top: 4px;width: 13px;height: 13px;}
+	.reg_main .r_agree a{color: #279cd2;font-size: 12px;display: block;height: 20px;line-height: 20px;float: left;}
+	
+	#key,#phoneCode{width:150px;}
+	#codeNum,#getcode{float:left;display:block;width:85px;height:38px;line-height:38px;color:#32b2f8;font-size:13px;margin-left:15px;margin-right:10px;}
+	#codeNum{color:#a9a9a9}
+	.reg_main .r_row .code{float:left;width:75px;height:30px;margin:3px 20px 0 15px;}
+	.r_submit{width:700px;margin-left:92px}
+	.r_submit input{width:282px;line-height:38px;outline:0;border:none;text-align:center;border-radius:2px;background:#37b5f9;font-size:16px;color:#fff;cursor:pointer;}
+	.r_submit input:hover{background:#2ea8e3;}
+	
+	.r_login{width:282px;text-align:center;color:#a9a9a9;margin-left:92px;margin-top: 20px;}
+	.r_login a{color:#32b2f8;}
+	.error{color:#e85173!important;}
+	.footer{margin-top:30px;width:960px;}
+	.footer p a, .footer span {color: #a4a4a4;}
+</style>
+
+<div class="reg_main">
+	<div class="reg_title">注册17yy账号</div>
+	<div class="reg_box">
+		<form id="regForm" name="userinfoform" method="post" onsubmit="return checkRegForm()" enctype="multipart/form-data" action="http://www.17yy.com/e/enews/new_register_index.php">
+			<input type="hidden" name="enews" value="register"> 
+			<input type="hidden" name="invitId" value="0"> 
+			<input name="groupid" type="hidden" id="groupid" value="1"> 
+			<input type="hidden" name="username" id="uname">
+
+			<!--邮箱-->
+			<div class="r_row">
+				<div class="r_left">邮箱</div>
+				<div class="r_right"><input id="email" name="email" type="text" onblur="checkemail()"></div>
+				<div class="r_tips" data-code="0" id="email_tips">请填写常用的邮箱，邮箱就是用户名，方便您登录和找回密码</div>
+			</div>
+
+			<!--密码-->
+			<div class="r_row">
+				<div class="r_left">密码</div>
+				<div class="r_right"><input name="password" id="pwd" type="password" onblur="checkpwd()"></div>
+				<div class="r_tips" id="pwd_tips">请输入6~12位字母和数字组成的登录密码</div>
+			</div>
+
+			<!--确认密码-->
+			<div class="r_row">
+				<div class="r_left">确认密码</div>
+				<div class="r_right"><input name="repassword" id="repwd" type="password" onblur="checkrepwd()"> </div>
+				<div class="r_tips" id="repwd_tips">请再次输入密码</div>
+			</div>
+
+			<!--真实姓名-->
+			<div class="r_row">
+				<div class="r_left">真实姓名</div>
+				<div class="r_right"><input name="truename" id="truename" type="text" onblur="checktruename()"> </div>
+				<div class="r_tips" id="truename_tips">请输入您的真实姓名</div>
+			</div>
+
+			<!--身份证号-->
+			<div class="r_row">
+				<div class="r_left">身份证号</div>
+				<div class="r_right"><input name="cardid" id="cardid" type="text" onblur="checkcardid()"> </div>
+				<div class="r_tips" id="cardid_tips">请输入您的身份证号码</div>
+			</div>
+
+			<!--手机号码-->
+			<div class="r_row">
+				<div class="r_left">手机号码</div>
+				<div class="r_right"><input name="phoneNumber" id="phoneNumber" type="text" onblur="checknumber()"> </div>
+				<div class="r_tips" id="phone_tips">请输入您的手机号码</div>
+			</div>
+
+			<!--图形验证码-->
+			<div class="r_row">
+				<div class="r_left">图形验证码</div>
+				<div class="r_right"><input name="ask" id="key" type="text" onblur="checkkey()"></div>
+				<div class="code">
+					<img src="http://www.17yy.com/e/ShowKey/ask.php?Action=askimg&amp;imgW=80&amp;imgH=30" onclick="this.src=&quot;http://www.17yy.com/e/ShowKey/ask.php?Action=askimg&amp;imgW=75&amp;imgH=30&amp;r=&quot;+Math.random()" title="刷新验证码" width="100%" height="100%">
+				</div>
+				<div class="r_tips" id="key_tips">如看不清，请点击图片更新验证码</div>
+			</div>
+
+			<!--短信验证码-->
+			<div class="r_row">
+				<div class="r_left">短信验证码</div>
+				<div class="r_right"><input name="phoneCode" id="phoneCode" type="text" disabled="disabled" autocomplete="off" onblur="checkcode()"></div>
+				<a href="javascript:void(0);" target="_self" id="getcode" onclick="Timeout()" data-checkcode="0">获取验证码</a>
+				<a id="codeNum" style="display:none;"></a>
+				<div class="r_tips" id="code_tips">请输入短信验证码</div>
+			</div>
+
+			<!--用户服务协议-->
+			<div class="r_agree">
+				<label><input type="checkbox" name="agree" value="1" id="check">我已阅读并同意</label>
+				<a target="_blank" href="http://www.17yy.com/protocol.html">《17yy用户服务协议》</a>
+				<div class="r_tips" id="agree_tips"></div>
+			</div>
+
+			<!--立即注册-->
+			<div class="r_submit">
+				<input type="submit" name="Submit" value="立即注册">
+			</div>
+			
+			<!--已有账号-->
+			<div class="r_login">
+				已有账号，<a href="http://www.17yy.com/e/member/login/index.php" target="_self">立即登录</a>
+			</div>
+
+		</form>
+	</div>
+</div>
+
+
+<div class="footer">
+ 
+	<p>北京泥巴网络&nbsp;&nbsp;&nbsp;版权所有&nbsp;&nbsp;&nbsp;&nbsp;<a rel="nofollow" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11011402010485"><img src="http://css.17yy.com/images/beijingwangan.png"> 京公网安备 11011402010485号</a>  &nbsp;|&nbsp;  <a rel="nofollow" href="http://www.miibeian.gov.cn">京ICP备18022735号-3</a>  &nbsp;|&nbsp;  <a rel="nofollow" href="http://css.17yy.com/images/niba_cert.jpg"><img src="http://www.niba.com/skin/default/images/wen.png">  京网文〔2018〕3086-300号</a></p>  
+	<p>游戏健康忠告：抵制不良游戏，拒绝盗版游戏。注意自我保护，谨防受骗上当。适度游戏益脑，沉迷游戏伤身。合理安排时间，享受健康生活。 </p>
+
+</div>
+ 
+ 
+<script type="text/javascript" src="http://css.17yy.com/js/class_js2.js"></script>
+<script type="text/javascript" src="http://css.17yy.com/js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript">
+function $DE(id){
+	return document.getElementById(id);
+}
+</script>
+<script type="text/javascript"> showhistory_top()</script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Result</title>
+    <meta charset="utf-8"> 
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">  
+	<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        /* 标题的格式（最初设计了标题的格式，后因实在太丑还是删去） */
+        .title{
+            width: 95%;
+            height: 80px;
+            background-color: rgba(192, 191, 189, 0.972);
+            border:1px solid #000000;
+            /* background-image: url(1.png); */
+        }
+        /* 每个小box的格式 */
+        .content{
+            width: 95%;
+            height: 120px;
+            background-color: rgb(124, 123, 121);
+            float:left;
+            margin-bottom: 20px;
+            margin-left: 10px;
+            border:1px solid #000000;
+            /* background-image: url(1.png); */
+        }
+    </style>
+</head>
+<body>
+
+
+    <!-- 较为好看点的搜索标签 -->
+    <h2>    </h2>
+    <div class="btn-group" style="float:left; margin-right: 20px;">
+        <!-- href是相对链接 -->
+        <a class="btn btn-default" href="/search" role="button"><span class="glyphicon glyphicon-search"></span>&nbsp;网页</a>
+        <a class="btn btn-default" href="/search_img" role="button"><span class="glyphicon glyphicon-picture"></span>&nbsp;图片</a>
+    </div>
+    <form action="result">
+        <input type="name" name="keyword">
+        <input class="btn btn-default" type="submit" name="搜索">
+    </form>
+
+
+
+    <!-- 此处注释掉的是最初设计的跳转方式，由于不够美观故弃用。 -->
+    <!-- <h1>Search</h1>
+    <font size = "4" >网页&nbsp;&nbsp;<a href="/search_img" >图片</a></font>
+    <form action="result">
+        <input type="name" name="keyword"><br>
+        <input type="submit" name="搜索">
+    </form> -->
+    <hr>
+    <font size = "3" color="grey">为您找到的"{{ keyword }}"的网页搜索结果有{{ number }}个</font>
+    <br><br>
+    {% for texts in TEXTS %}
+        <div style="background-color: rgb(168, 168, 167);" class='content'>
+            <!-- 生成带有超链接的标题 -->
+            <br><a href={{ texts.url }}><font size = "4" color="blue"><b>{{ texts.title }}</b></font></a><br><br>
+            <!-- 生成带有关键词上下文的内容 -->
+            <font size = "3">{{ texts.left }}</font><font size = "3" color="red">{{ keyword }}</font><font size = "3">{{ texts.right }}</font>     <br>    
+            <!-- 生成网页链接，如果是可点击的形式可直接用注释的语句 -->
+            <!-- <i><a href={{ texts.url }} style="color:green" >{{ texts.url }}</a></i><br> -->
+            <i><font size = "3" color="green">{{ texts.url }}</font></i>
+        </div>
+        <font size = "3" ><br></font>
+    {% endfor %}
+
+
+</body>
+</html>

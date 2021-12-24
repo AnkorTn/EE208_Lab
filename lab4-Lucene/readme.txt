@@ -1,0 +1,11 @@
+本次codes由三份代码构成：
+	crawler_multi_thread.py
+	IndexFiles.py
+	SearchFiles.py
+首先运行crawler_multi_thread.py建立index.txt以及在\html文件夹中写入所有爬取下来的网页；
+其次运行IndexFiles.py建立相应索引，并存放在\index文件夹中
+最后运行SearchFiles.py进行索引的搜索
+【附】
+在原本的\html1文件夹中已经放有删除了一部分较大网页之后剩余的5000多个网页文件，因而若助教有需要的话，可以直接将html1改名为html、index1.txt改名index.txt来跳过第一个文件的运行；
+同样的，也可以将\index1改名为\index来跳过第二个文件的运行；
+则本质上只需要直接运行SearchFiles.py即可

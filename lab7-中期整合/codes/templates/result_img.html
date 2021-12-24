@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Result_img</title>
+    <meta charset="utf-8"> 
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">  
+	<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        /* 标题的设定 */
+        .title{
+            width: 95%;
+            height: 80px;
+            background-color: rgba(192, 191, 189, 0.972);
+            border:1px solid #000000;
+            /* background-image: url(1.png); */
+        }
+        /* 小box的设定 */
+        .content{
+            width: 20%;
+            height: 200px;
+            background-color: rgb(124, 123, 121);
+            float:left;
+            margin-left:3%;
+            margin-bottom: 30px;
+            text-align:center;
+            border:1px solid #000000;
+            /* background-image: url(1.png); */
+        }
+        /* box内部嵌联的图片的规格设定，其中通过百分号的方式来确保图片是成比例地呈现在box中，防止溢出。 */
+        /* 通过左右上下的缩进来体现间隔 */
+        .imgs{
+            width:86%;
+            height:65%;
+            float:left;
+            margin-top:10px;
+            margin-left:7%;
+            margin-right:7%;
+            margin-bottom:10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 较为好看点的搜索标签 -->
+    <h2>    </h2>
+    <div class="btn-group" style="float:left; margin-right: 20px;">
+        <!-- href是相对链接 -->
+        <a class="btn btn-default" href="/search" role="button"><span class="glyphicon glyphicon-search"></span>&nbsp;网页</a>
+        <a class="btn btn-default" href="/search_img" role="button"><span class="glyphicon glyphicon-picture"></span>&nbsp;图片</a>
+    </div>
+    <form action="result_img">
+        <input type="name" name="keyword">
+        <input class="btn btn-default" type="submit" name="搜索">
+    </form>
+
+
+
+    <!-- 此处注释掉的是最初设计的跳转方式，由于不够美观故弃用。 -->
+    <!-- <h1>Search</h1>
+    <font size = "4" ><a href="/search" >网页</a>&nbsp;&nbsp;图片</font>
+    <form action="result_img">
+        <input type="name" name="keyword"><br>
+        <input type="submit" name="搜索">
+    </form> -->
+    <hr>
+    <font size = "3" color="grey">为您找到的"{{ keyword }}"的网页搜索结果有{{ number }}个</font><br><br>
+    {% for texts in TEXTS %}
+        <div style="background-color: rgb(168, 168, 167);" class = 'content'>
+            <!-- 生成图片，注意需要居中，即align='center'，并且插入的图片的style为imgs类 -->
+            <img src={{ texts.imgurl }} class="imgs" align="center"/>
+            <!-- <a href={{ texts.imgurl }}><i><font size = "4" color="blue"><b>这是图片需要渲染</b></font></i></a><br> -->
+            <!-- 生成内容并且附带超链接 -->
+            <p align="center"><a href={{ texts.url }}><i><font size = "4" color="blue"><b>{{ texts.data }}</b></font></i></a></p>
+        </div>
+    {% endfor %}
+
+
+</body>
+</html>

@@ -1,0 +1,14 @@
+本次codes由四份代码附加一份index文件以及一份压缩文件构成：
+	IndexFiles.py
+	SearchFiles.py
+	Indeximg.py
+	Searchimg.py
+	index.txt
+	html.zip
+在原本的html.zip压缩包中已经放有删除了一部分较大网页之后剩余的5000多个网页文件，助教请先解压到当前文件夹再开始测试程序，谢谢！
+练习一：
+运行IndexFiles.py建立相应索引，并存放在\index文件夹中
+运行SearchFiles.py进行索引的搜索
+练习二：
+运行Indeximg.py建立相应图片索引，并存放在\index文件夹中
+运行Searchimg.py进行索引的搜索

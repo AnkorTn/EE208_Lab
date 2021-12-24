@@ -1,0 +1,1563 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>最火软件站_提供免费软件下载|绿色软件下载|手机软件下载_最火软件站</title>
+    <meta name="keywords" content="最火软件站,免费软件,绿色软件,软件下载,手机软件,游戏下载,电脑教程,源码下载,网页特效,手机教程,游戏攻略,IT资讯">
+    <meta name="description" content="最火软件站提供免费软件下载,计算机知识,源码下载为主要宗旨.同时有网站运营,编程教程,网页特效,手机教程,游戏攻略和IT资讯等内容,打造常用软件下载、内容丰富的站长学习和IT技术学院">
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <link rel="stylesheet" href="/static/css/common.css">
+    <link rel="stylesheet" href="/static/css/index.css?t=20200721">
+    <script src="/static/js/home/redirect.js"></script>
+</head>
+<body>
+
+<!--顶部-->
+    <div class="top">
+        <div class="top_wrapper w clearfix">
+            <div class="top_l fl">
+                <span class="home"><a href="http://www.veryhuo.com/">最火下载站首页</a></span>
+                <div class="top_phone yddewm" id="phoneBox">
+                    <div class="phone_top"><span>手机版
+                        <a class="jtTop" href="javascript:;"><i></i></a>
+                        <a class="jtBot" href="javascript:;"><i></i></a>
+                    </span></div>
+                    <div class="white-line"></div>
+                    <div class="lowphone" id="yddewmBox">
+                        <img src="/static/images/ewm.png" alt="最火下载站">
+                    </div>
+                </div>
+                <div class="top_phone gzhewm" id="phoneBoxs">
+                    <div class="phone_top"><span>关注公众号
+                        <a class="jtTop" href="javascript:;"><i></i></a>
+                        <a class="jtBot" href="javascript:;"><i></i></a>
+                    </span></div>
+                    <div class="white-line"></div>
+                    <div class="lowphone" id="gzhewmBox">
+                        <img src="/static/images/gzhewm.jpg" alt="最火下载站">
+                    </div>
+                </div>
+            </div>
+            <div class="top_r fr">
+                <ul id="topUl">
+                    <li><a href="/down/new/0_1.html" target="_blank">最新更新</a>|</li>
+                    <li><a href="/data/softfl.html" target="_blank">软件分类</a>|</li>
+                    <li><a href="http://open.veryhuo.com/publish/index/index.html" target="_blank">软件发布</a>|</li>
+                    <li><a href="javascript:;" onclick="AddFavorite();">收藏本站</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--logo和搜索部分-->
+    <div class="header">
+        <div class="header-top">
+            <div class="header-in clearfix">
+                <div class="logo fl"><a href="http://www.veryhuo.com/"><img src="/static/images/logo.jpg" title="最火下载站"></a></div>
+                <div class="search fr">
+                    <form action="http://zhannei.baidu.com/cse/search" method="get" name="f" target="_blank">
+                        <input type="hidden" value="3" name="channeltype">
+                        <!-- <input class="in_search" name="q" id="bdcsMain" type="text" value="" autocomplete="off"> -->
+                        <input type="hidden" name="s" value="2212618327036021046">
+                        <input type="hidden" name="entry" value="1">
+                        <div class="search_box">
+                            <input type="text" autocomplete="off" id="bdcsMain" name="q" class="sech_keyword" value=""
+                                placeholder="请输入您要搜索的内容" style="color: rgb(192, 192, 192);">
+                            <input type="submit" value="搜索" class="sech_btn">
+                        </div>
+                    </form>
+                    <div class="search-key">
+                        <label>热搜：</label>
+                        <a class="seahotid" data-id="431" href="http://www.veryhuo.com/down/class/986_1.html" target="_blank">iphone应用</a>
+                        <a class="seahotid hot_a" data-id="372" href="http://www.veryhuo.com/down/class/987_1.html" target="_blank">iphone游戏</a>
+                        <a class="seahotid" data-id="429" href="http://www.veryhuo.com/down/class/363_1.html" target="_blank">安卓应用</a>
+                        <a class="seahotid hot_a" data-id="432" href="http://www.veryhuo.com/down/class/611_1.html" target="_blank">安卓游戏</a>
+                        <a class="seahotid" data-id="433" href="http://www.veryhuo.com/z/class/index.html" target="_blank">软件专题</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--导航-->
+        <div class="header-nav">
+            <div class="nav-column">
+                <div class="nav-column-in">
+                    <ul id="j_main_nav">
+                                                        <li id="li1"><a href="http://www.veryhuo.com" >首页</a></li>
+                                                            <li id="li3"><a href="https://www.veryhuo.com/computersoft.html" >电脑软件</a></li>
+                                                            <li id="li4"><a href="https://www.veryhuo.com/androidsoft.html" >安卓下载</a></li>
+                                                            <li id="li5"><a href="https://www.veryhuo.com/iphonesoft.html" >苹果应用</a></li>
+                                                            <li id="li14"><a href="https://www.veryhuo.com/computergame.html" >电脑游戏</a></li>
+                                                            <li id="li16"><a href="https://www.veryhuo.com/main.html" >资讯教程</a></li>
+                                                            <li id="li17"><a href="https://www.veryhuo.com/rank.html" >排行榜</a></li>
+                                                            <li id="li32"><a href="https://www.veryhuo.com/z/class/index.html" >专题</a></li>
+                                                </ul>
+                </div>
+            </div>
+            <!-- 二级导航 -->
+            <div class="secondNav">
+                <div class="sub-nav" id="j-sub-nav-3"><div class="sub-nav-in"><p><a href="/down/class/306_1.html">网络软件&emsp;</a><a href="/down/class/309_1.html">系统工具&emsp;</a><a href="/down/class/315_1.html">应用软件&emsp;</a><a href="/down/class/312_1.html">图形图像&emsp;</a><a href="/down/class/313_1.html">媒体工具&emsp;</a><a href="/down/class/1105_1.html">行业软件&emsp;</a><a href="/down/class/1107_1.html">教育教学&emsp;</a><a href="/down/class/1109_1.html">网络聊天&emsp;</a><a href="/down/class/307_1.html">安全优化&emsp;</a><a href="/down/class/308_1.html">编程开发&emsp;</a><a href="/down/class/316_1.html">其他软件&emsp;</a></p></div></div><div class="sub-nav" id="j-sub-nav-5"><div class="sub-nav-in"><p><a href="/down/class/987_1.html">iPhone游戏&emsp;</a><a href="/down/class/986_1.html">iPhone应用&emsp;</a><a href="/down/class/990_1.html">iPad游戏&emsp;</a><a href="/down/class/988_1.html">iPad应用&emsp;</a></p></div></div><div class="sub-nav" id="j-sub-nav-4"><div class="sub-nav-in"><p><a href="/down/class/363_1.html">安卓应用&emsp;</a><a href="/down/class/611_1.html">安卓游戏&emsp;</a></p></div></div><div class="sub-nav" id="j-sub-nav-16"><div class="sub-nav-in"><p><a href="/down/class/60_1.html">互联网&emsp;</a><a href="/down/class/427_1.html">业界动态&emsp;</a><a href="/down/class/17_1.html">软件资讯&emsp;</a><a href="/down/class/13_1.html">安全资讯&emsp;</a><a href="/down/class/386_1.html">游戏新闻&emsp;</a><a href="/down/class/410_1.html">电脑教程&emsp;</a><a href="/down/class/109_1.html">移动学院&emsp;</a></p></div></div><div class="sub-nav" id="j-sub-nav-14"><div class="sub-nav-in"><p><a href="/down/class/310_1.html">游戏娱乐&emsp;</a></p></div></div>            </div>
+        </div>
+    </div>
+        
+  
+    <!--小图标轮播图-->
+    <div id="lbBigbox" class="row g-recomd-images-box">
+        <div class="span9 f-rolling clearfix" id="fy-rolling" data-ride="rolling" data-stretch="0" data-auto="1" data-num="14" data-auto-style="0">
+            <div class="f-rolling-mask" style="width: 1148px;">
+                <ul id="icon_lbBox" class="f-rolling-images clearfix" style="width: 2460px; left: 0px;">
+                </ul>
+            </div>
+            <a href="javascript:void(0)" id="f-rolling-btn-prev" class="f-rolling-btn" style="opacity: 0; display: inline;">&lt;</a>
+            <a href="javascript:void(0)" id="f-rolling-btn-next" class="f-rolling-btn" style="opacity: 0; display: inline;">&gt;</a>
+        </div>
+    </div>
+    <!--分类-->
+    <div class="row g-recomd-label">
+        <div class="span9 g-recomd-label-zone g-label-0">
+            <em class="rm">热门</em>
+                            <a href="/down/html/258929.html" target="_blank">万能钥匙大师</a>
+                            <a href="/down/html/258987.html" target="_blank">浦东观察</a>
+                            <a href="/down/html/259004.html" target="_blank">有象约车</a>
+                            <a href="/down/html/259360.html" target="_blank">壁纸头像精灵</a>
+                            <a href="/down/html/259467.html" target="_blank">无痕浏览器</a>
+                            <a href="/down/html/259836.html" target="_blank">优聚返利购</a>
+                            <a href="/down/html/260142.html" target="_blank">熊猫天天故事</a>
+                            <a href="/down/html/260277.html" target="_blank">半身证件照</a>
+                            <a href="/down/html/260458.html" target="_blank">嗨动</a>
+                            <a href="/down/html/260481.html" target="_blank">灵芝问诊</a>
+                            <a href="/down/html/260548.html" target="_blank">快速充电电池</a>
+                            <a href="/down/html/267185.html" target="_blank">好游社区</a>
+                    </div>
+        <div class="span9 g-recomd-label-one g-label-1">
+            <em class="cy">常用</em>
+                            <a href="/down/html/77564.html" target="_blank">易到用车</a>
+                            <a href="/down/html/216783.html" target="_blank">曲奇云盘</a>
+                            <a href="/down/html/222048.html" target="_blank">乐活旅行</a>
+                            <a href="/down/html/224413.html" target="_blank">Google幻灯片</a>
+                            <a href="/down/html/225620.html" target="_blank">Alook浏览器</a>
+                            <a href="/down/html/227343.html" target="_blank">美妆心得</a>
+                            <a href="/down/html/227955.html" target="_blank">河狸家</a>
+                            <a href="/down/html/228040.html" target="_blank">捡人</a>
+                            <a href="/down/html/228044.html" target="_blank">易追踪</a>
+                            <a href="/down/html/228147.html" target="_blank">兼职侠</a>
+                            <a href="/down/html/228167.html" target="_blank">医考无忧</a>
+                            <a href="/down/html/228359.html" target="_blank">小蝌蚪直播</a>
+                            <a href="/down/html/228572.html" target="_blank">曹操顺风车</a>
+                    </div>
+        <div class="span9 g-recomd-label-one g-recomd-label-two g-label-2">
+            <em class="hj">专题</em>
+                            <a href="/z/ckbdxz/" target="_blank">彩库宝典软件大全</a>
+                            <a href="/z/ltadappdq/" target="_blank">六台宝典app大全</a>
+                            <a href="/z/zuqiu_youxi/" target="_blank">足球手游推荐</a>
+                            <a href="/z/baobao_bashi_youxi/" target="_blank">宝宝巴士系列游戏</a>
+                            <a href="/z/tiaoyue_shouyou/" target="_blank">跳跃游戏推荐</a>
+                            <a href="/z/xjspappdq/" target="_blank">香蕉视频app大全</a>
+                            <a href="/z/jianya_shouyou/" target="_blank">减压手游推荐</a>
+                            <a href="/z/lanqiu_shouyou/" target="_blank">篮球游戏合集</a>
+                            <a href="/z/niuniu_youxi/" target="_blank">牛牛游戏大全</a>
+                    </div>
+        
+    </div>
+    <!--左侧轮播图和资讯部分-->
+    <div class="row g-plate-one">
+        <!--左侧-->
+        <div class="span2 g-plate-one-left">
+            <div class="f-rolling clearfix" id="fy-rolling1" data-ride="rolling" data-stretch="true" data-auto="true" data-num="3">
+                <div class="f-rolling-whole" style="width: 1200px;">
+                    <ul class="f-rolling-images leftUl clearfix" style="width: 1200px; left: -400px;">
+                        
+                        <li style="display:block">
+                            <a href="http://www.veryhuo.com/z/xjspappdq/" target="_blank">
+                                <img src="//pic.veryhuo.com/upload/admin/20200908/af8748406eeca81d7f6dbc5f03f1b865.png" alt="安卓版香蕉视频下载" style="margin-left: 0px; margin-top: -4px;">
+                            </a>
+                            <div class="f-rolling-text">
+                                <strong>安卓版香蕉视频下载</strong>
+                            </div>
+                        </li>
+                        
+
+                        <li style="display:none">
+                            <a href="http://www.veryhuo.com/z/feiqin_zoushou_youxi/" target="_blank">
+                                <img src="//pic.veryhuo.com/upload/admin/20200908/0ea636edd388ea0c85327e1c74add3cc.jpg" alt="飞禽走兽游戏合集" style="margin-left: 0px; margin-top: -4px;">
+                            </a>
+                            <div class="f-rolling-text">
+                                <strong>飞禽走兽游戏合集</strong>
+                            </div>
+                        </li>
+                        
+
+                        <li style="display:none">
+                            <a href="http://www.veryhuo.com/z/lhzzxz/" target="_blank">
+                                <img src="//pic.veryhuo.com/upload/admin/20200908/2b3c40054e34a0cfc343bc8be54ef6c8.jpg" alt="六合至尊app大全" style="margin-left: 0px; margin-top: -4px;">
+                            </a>
+                            <div class="f-rolling-text">
+                                <strong>六合至尊app大全</strong>
+                            </div>
+                        </li>
+                        
+                    </ul>
+                </div>
+                <ol class="f-rolling-indicators clearfix">
+                    
+                    <li class="active"></li>
+                    
+
+                    <li class=""></li>
+                    
+
+                    <li class=""></li>
+                    
+                </ol>
+                
+                
+            </div>
+            <div class="row g-new-intr">
+                <dl class="m-new-title">
+                    <dt>最新资讯</dt>
+                    <dd><a href="/down/class/1_1.html">更多&gt;&gt;</a></dd>
+                </dl>
+                <dl class="m-new-recomd">
+                                            <dt><a href="/a/view/272966.html"><img src="//pic.veryhuo.com/upload/article/20201010/1e8f67e0ff9703fadb645701065ed2f0.jpg" alt="天涯明月刀手游奇遇夜语迟怎么完成？夜语迟奇遇流程攻略"></a></dt>
+                        <dd>
+                            <a href="/a/view/272966.html">天涯明月刀手游奇遇夜语迟怎么完成？夜....</a>
+                            <p>天涯明月刀手游中有非常多的奇遇任务，玩家可以通过....</p>
+                        </dd>
+                                    </dl>
+                <ul class="m-new-ul">
+                                            <li>
+                            <a href="/a/view/273035.html">腾讯彩票有几种玩法？腾讯彩票玩法介绍</a><em><span>10-13</span></em>
+                        </li>
+                                            <li>
+                            <a href="/a/view/272950.html">realme真我Q2和Q2 Pro哪个好？配置参数区别对比介绍</a><em><span>10-13</span></em>
+                        </li>
+                                            <li>
+                            <a href="/a/view/272870.html">原神炼金效率怎么快速积累？原神炼金效率获得技巧攻略</a><em><span>10-13</span></em>
+                        </li>
+                                            <li>
+                            <a href="/a/view/272951.html">二四六天空彩选好资料怎么投注？二四六天空彩选好资料投注技巧介绍</a><em><span>10-13</span></em>
+                        </li>
+                                            <li>
+                            <a href="/a/view/272817.html">天涯明月刀手游帮派联赛怎么进？帮派联赛时间奖励一览</a><em><span>10-13</span></em>
+                        </li>
+                                            <li>
+                            <a href="/a/view/272726.html">动物派对怎么爬墙爬潜艇？party animals怎么攀爬</a><em><span>10-13</span></em>
+                        </li>
+                                            <li>
+                            <a href="/a/view/272685.html">王者荣耀五周年称号怎么获得？荣耀五年玩家称号设置方法</a><em><span>10-13</span></em>
+                        </li>
+                                            <li>
+                            <a href="/a/view/272936.html">澳门六下彩免费资料怎么选号？澳门六下彩免费资料选号技巧介绍</a><em><span>10-13</span></em>
+                        </li>
+                                    </ul>
+            </div>
+        </div>
+        <!--中间-->
+        <div class="CReCenter">
+            <div class="CRCSoft J_g_mouseover_tab">
+                <div class="CRCSTitle J_tab centerTit">
+                    <a href="/computersoft.html" class="tab-item cur">电脑下载<span>/</span><i class="bot-arrow"></i></a>
+                    <a href="/androidsoft.html" class="tab-item"> 安卓下载<span>/</span><i class="bot-arrow"></i></a>
+                    <a href="/iphonesoft.html" class="tab-item">苹果下载<span></span><i class="bot-arrow"></i></a>
+                </div>
+                <div class="CRCSList J_tab_cont">
+                    <ul class="tab-cont-item" style="display: block;">
+                                                    <li><a href="/down/class/609_1.html" class="cname" target="_blank">【其它应用】</a>
+                                <a href="/down/html/272814.html" target="_blank">
+                                    <img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20201013/60d3fa5ad47c529992505d73d6155ee2.jpg" src="//pic.veryhuo.com/upload/soft/20201013/60d3fa5ad47c529992505d73d6155ee2.jpg" alt="土地登记信息系统" style="display: inline;">土地登记信息系统 v1.0 电脑版                                </a>
+                                <time>3小时前</time>
+                            </li>
+                                                    <li><a href="/down/class/586_1.html" class="cname" target="_blank">【趣味软件】</a>
+                                <a href="/down/html/272724.html" target="_blank">
+                                    <img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20201013/70c868c54a3bb51eda24fb80126da794.jpg" src="//pic.veryhuo.com/upload/soft/20201013/70c868c54a3bb51eda24fb80126da794.jpg" alt="创造你的王国" style="display: inline;">创造你的王国 v1.0 电脑版                                </a>
+                                <time>4小时前</time>
+                            </li>
+                                                    <li><a href="/down/class/598_1.html" class="cname" target="_blank">【视频处理】</a>
+                                <a href="/down/html/272813.html" target="_blank">
+                                    <img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20201013/233125e544a971e1f2651f2b3639bba2.jpg" src="//pic.veryhuo.com/upload/soft/20201013/233125e544a971e1f2651f2b3639bba2.jpg" alt="超级AVI视频转换器2021" style="display: inline;">超级AVI视频转换器2021 v1.0 电脑版                                </a>
+                                <time>4小时前</time>
+                            </li>
+                                                    <li><a href="/down/class/632_1.html" class="cname" target="_blank">【游戏补丁】</a>
+                                <a href="/down/html/272722.html" target="_blank">
+                                    <img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20201013/a8f1bd7060a1fb748d20e42f57cee832.jpg" src="//pic.veryhuo.com/upload/soft/20201013/a8f1bd7060a1fb748d20e42f57cee832.jpg" alt="Smelter升级补丁" style="display: inline;">Smelter升级补丁 v1.0 电脑版                                </a>
+                                <time>5小时前</time>
+                            </li>
+                                                    <li><a href="/down/class/584_1.html" class="cname" target="_blank">【网络游戏】</a>
+                                <a href="/down/html/272710.html" target="_blank">
+                                    <img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20201013/6651524af0fdae320107c337c9e4c4ea.jpg" src="//pic.veryhuo.com/upload/soft/20201013/6651524af0fdae320107c337c9e4c4ea.jpg" alt="波兰球英雄破解版" style="display: inline;">波兰球英雄破解版 v1.0 电脑版                                </a>
+                                <time>5小时前</time>
+                            </li>
+                                                    <li><a href="/down/class/594_1.html" class="cname" target="_blank">【图像其它】</a>
+                                <a href="/down/html/272793.html" target="_blank">
+                                    <img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20201013/318222dd5850d130d14d11829c043d05.jpg" src="//pic.veryhuo.com/upload/soft/20201013/318222dd5850d130d14d11829c043d05.jpg" alt="点金GIF录制工具" style="display: inline;">点金GIF录制工具 v1.0 电脑版                                </a>
+                                <time>6小时前</time>
+                            </li>
+                                                    <li><a href="/down/class/581_1.html" class="cname" target="_blank">【恢复还原】</a>
+                                <a href="/down/html/272786.html" target="_blank">
+                                    <img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20201013/2f34cac03c9233cb7277b0b3ac1723b2.jpg" src="//pic.veryhuo.com/upload/soft/20201013/2f34cac03c9233cb7277b0b3ac1723b2.jpg" alt="比特苹果恢复大师" style="display: inline;">比特苹果恢复大师 v1.0 电脑版                                </a>
+                                <time>7小时前</time>
+                            </li>
+                                                    <li><a href="/down/class/662_1.html" class="cname" target="_blank">【单机游戏】</a>
+                                <a href="/down/html/272707.html" target="_blank">
+                                    <img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20201013/18afb02139aa7a7b4d4db3140dad8de7.jpg" src="//pic.veryhuo.com/upload/soft/20201013/18afb02139aa7a7b4d4db3140dad8de7.jpg" alt="繁星路" style="display: inline;">繁星路 v1.0 电脑版                                </a>
+                                <time>7小时前</time>
+                            </li>
+                                                    <li><a href="/down/class/436_1.html" class="cname" target="_blank">【加密解密】</a>
+                                <a href="/down/html/272779.html" target="_blank">
+                                    <img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20201013/c4f0b40cfdc761a30b72642d25fe359f.jpg" src="//pic.veryhuo.com/upload/soft/20201013/c4f0b40cfdc761a30b72642d25fe359f.jpg" alt="Manyprog Zip Password recover(密码恢复工具)" style="display: inline;">Manyprog Zip Password recover(密码恢复工具) v1.0 电脑版                                </a>
+                                <time>8小时前</time>
+                            </li>
+                                                    <li><a href="/down/class/443_1.html" class="cname" target="_blank">【下载工具】</a>
+                                <a href="/down/html/272769.html" target="_blank">
+                                    <img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20201013/c57315349b78dd46f97134166e793ea8.jpg" src="//pic.veryhuo.com/upload/soft/20201013/c57315349b78dd46f97134166e793ea8.jpg" alt="聚会员迅雷登陆器" style="display: inline;">聚会员迅雷登陆器 v1.0 电脑版                                </a>
+                                <time>9小时前</time>
+                            </li>
+                                                    <li><a href="/down/class/585_1.html" class="cname" target="_blank">【游戏辅助】</a>
+                                <a href="/down/html/192576.html" target="_blank">
+                                    <img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20201013/ef5aecaf370075d01d5f2a4f9fbb2423.jpg" src="//pic.veryhuo.com/upload/soft/20201013/ef5aecaf370075d01d5f2a4f9fbb2423.jpg" alt="诺菲拉图的管家游戏修改器" style="display: inline;">诺菲拉图的管家游戏修改器 v1.0 电脑版                                </a>
+                                <time>10小时前</time>
+                            </li>
+                                                    <li><a href="/down/class/633_1.html" class="cname" target="_blank">【游戏地图】</a>
+                                <a href="/down/html/272340.html" target="_blank">
+                                    <img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20201012/7e854d2fc8aba6d2aa5308320d4bbee8.jpg" src="//pic.veryhuo.com/upload/soft/20201012/7e854d2fc8aba6d2aa5308320d4bbee8.jpg" alt="卢波教授星际之海游戏地图" style="display: inline;">卢波教授星际之海游戏地图 v1.0 电脑版                                </a>
+                                <time>10小时前</time>
+                            </li>
+                                                    <li><a href="/down/class/1148_1.html" class="cname" target="_blank">【视频聊天】</a>
+                                <a href="/down/html/272475.html" target="_blank">
+                                    <img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20201012/05bd45b19f8dbdb63274af798fe5c185.jpg" src="//pic.veryhuo.com/upload/soft/20201012/05bd45b19f8dbdb63274af798fe5c185.jpg" alt="Umeeting(优听视频会议)" style="display: inline;">Umeeting(优听视频会议) v1.0 电脑版                                </a>
+                                <time>11小时前</time>
+                            </li>
+                                                    <li><a href="/down/class/570_1.html" class="cname" target="_blank">【编程软件】</a>
+                                <a href="/down/html/272459.html" target="_blank">
+                                    <img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20201012/b8047c538712ce3cdb68b06293ce279d.png" src="//pic.veryhuo.com/upload/soft/20201012/b8047c538712ce3cdb68b06293ce279d.png" alt=" 啊哈c破解版" style="display: inline;"> 啊哈c破解版 v1.0 电脑版                                </a>
+                                <time>11小时前</time>
+                            </li>
+                                            </ul>
+                    <ul class="tab-cont-item" style="display: none;">
+                                                    <li><a href="/down/class/655_1.html" class="cname" target="_blank">【棋牌桌游】</a>
+                                <a href="/down/html/273043.html" target="_blank">
+                                    <img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20201013/8582f11482a035a5bfded7a58fd86370.png" src="//pic.veryhuo.com/upload/soft/20201013/8582f11482a035a5bfded7a58fd86370.png" alt="天天斗牛" style="display: inline;">天天斗牛 v3.8.2 安卓版                                </a>
+                                <time>2小时前</time>
+                            </li>
+                                                    <li><a href="/down/class/631_1.html" class="cname" target="_blank">【聊天社交】</a>
+                                <a href="/down/html/272592.html" target="_blank">
+                                    <img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20201012/2af32c69e9b3e3bce4f737e8e20a4eb2.jpg" src="//pic.veryhuo.com/upload/soft/20201012/2af32c69e9b3e3bce4f737e8e20a4eb2.jpg" alt="米尼直播" style="display: inline;">米尼直播  v1.2.3 安卓版                                </a>
+                                <time>2小时前</time>
+                            </li>
+                                                    <li><a href="/down/class/664_1.html" class="cname" target="_blank">【彩票软件】</a>
+                                <a href="/down/html/272896.html" target="_blank">
+                                    <img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20201013/21e16bf5aa21bbf641badbc2bc1a3b0e.png" src="//pic.veryhuo.com/upload/soft/20201013/21e16bf5aa21bbf641badbc2bc1a3b0e.png" alt="大乐透牛彩" style="display: inline;">大乐透牛彩 v1.01 安卓版                                </a>
+                                <time>2小时前</time>
+                            </li>
+                                                    <li><a href="/down/class/656_1.html" class="cname" target="_blank">【网游专区】</a>
+                                <a href="/down/html/272935.html" target="_blank">
+                                    <img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20201013/696b70e1a9f4ee57acd088eda66f8075.png" src="//pic.veryhuo.com/upload/soft/20201013/696b70e1a9f4ee57acd088eda66f8075.png" alt="群英之战" style="display: inline;">群英之战  v1.0 安卓版                                </a>
+                                <time>2小时前</time>
+                            </li>
+                                                    <li><a href="/down/class/620_1.html" class="cname" target="_blank">【移动安全】</a>
+                                <a href="/down/html/272816.html" target="_blank">
+                                    <img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20201013/b37b2d3b69ec3eef5c73051c32948994.png" src="//pic.veryhuo.com/upload/soft/20201013/b37b2d3b69ec3eef5c73051c32948994.png" alt="宝宝定位" style="display: inline;">宝宝定位 v1.0.0 安卓版                                </a>
+                                <time>2小时前</time>
+                            </li>
+                                                    <li><a href="/down/class/655_1.html" class="cname" target="_blank">【棋牌桌游】</a>
+                                <a href="/down/html/272774.html" target="_blank">
+                                    <img class="lazy" data-original="//pic.veryhuo.com/upload/game/20200929/56d28d7943f73440cca494d9d255fb9c.jpg" src="//pic.veryhuo.com/upload/game/20200929/56d28d7943f73440cca494d9d255fb9c.jpg" alt="亲朋捕鱼大乱斗" style="display: inline;">亲朋捕鱼大乱斗 v2.3 安卓版                                </a>
+                                <time>2小时前</time>
+                            </li>
+                                                    <li><a href="/down/class/623_1.html" class="cname" target="_blank">【金融理财】</a>
+                                <a href="/down/html/273016.html" target="_blank">
+                                    <img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20201013/9b67008df1b976a63b1cfcb06b0fc868.jpg" src="//pic.veryhuo.com/upload/soft/20201013/9b67008df1b976a63b1cfcb06b0fc868.jpg" alt="有钱花" style="display: inline;">有钱花  v4.7.5 安卓版                                </a>
+                                <time>2小时前</time>
+                            </li>
+                                                    <li><a href="/down/class/664_1.html" class="cname" target="_blank">【彩票软件】</a>
+                                <a href="/down/html/272705.html" target="_blank">
+                                    <img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20201010/0343351b9a7df6ee80ea6effc338e4ce.png" src="//pic.veryhuo.com/upload/soft/20201010/0343351b9a7df6ee80ea6effc338e4ce.png" alt="海南七星彩" style="display: inline;">海南七星彩 v1.01 安卓版                                </a>
+                                <time>2小时前</time>
+                            </li>
+                                                    <li><a href="/down/class/646_1.html" class="cname" target="_blank">【角色扮演】</a>
+                                <a href="/down/html/272974.html" target="_blank">
+                                    <img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20201013/9fbc40f3de2d369684425172fede2c85.gif" src="//pic.veryhuo.com/upload/soft/20201013/9fbc40f3de2d369684425172fede2c85.gif" alt="天天怼三国" style="display: inline;">天天怼三国  v1.0 安卓版                                </a>
+                                <time>2小时前</time>
+                            </li>
+                                                    <li><a href="/down/class/649_1.html" class="cname" target="_blank">【体育竞技】</a>
+                                <a href="/down/html/272996.html" target="_blank">
+                                    <img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20201013/6c9f9caafa4591132f303242f1d94147.png" src="//pic.veryhuo.com/upload/soft/20201013/6c9f9caafa4591132f303242f1d94147.png" alt="羊城体育" style="display: inline;">羊城体育  v1.0.1 安卓版                                </a>
+                                <time>2小时前</time>
+                            </li>
+                                                    <li><a href="/down/class/655_1.html" class="cname" target="_blank">【棋牌桌游】</a>
+                                <a href="/down/html/272672.html" target="_blank">
+                                    <img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20201009/e7ce61372712771be60d17326f513086.jpg" src="//pic.veryhuo.com/upload/soft/20201009/e7ce61372712771be60d17326f513086.jpg" alt="无限娱乐" style="display: inline;">无限娱乐  v2.1.4 安卓版                                </a>
+                                <time>2小时前</time>
+                            </li>
+                                                    <li><a href="/down/class/631_1.html" class="cname" target="_blank">【聊天社交】</a>
+                                <a href="/down/html/272989.html" target="_blank">
+                                    <img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20201013/31584e110853db6c78b263ea899e8d50.png" src="//pic.veryhuo.com/upload/soft/20201013/31584e110853db6c78b263ea899e8d50.png" alt="快活直播" style="display: inline;">快活直播  v2.82 安卓版                                </a>
+                                <time>2小时前</time>
+                            </li>
+                                                    <li><a href="/down/class/664_1.html" class="cname" target="_blank">【彩票软件】</a>
+                                <a href="/down/html/272768.html" target="_blank">
+                                    <img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20201013/a237d2631852d670724fd09da865300e.png" src="//pic.veryhuo.com/upload/soft/20201013/a237d2631852d670724fd09da865300e.png" alt="江苏体彩11选五开奖结果" style="display: inline;">江苏体彩11选五开奖结果 v1.01 安卓版                                </a>
+                                <time>2小时前</time>
+                            </li>
+                                                    <li><a href="/down/class/623_1.html" class="cname" target="_blank">【金融理财】</a>
+                                <a href="/down/html/272256.html" target="_blank">
+                                    <img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20201010/4100814cc28b5207595b61b799559566.png" src="//pic.veryhuo.com/upload/soft/20201010/4100814cc28b5207595b61b799559566.png" alt="百度金融" style="display: inline;">百度金融  v1.0 安卓版                                </a>
+                                <time>2小时前</time>
+                            </li>
+                                                <!-- <li class="UlBorder"></li> -->
+                    </ul>
+                    <ul class="tab-cont-item" style="display: none;">
+                                                    <li><a href="/down/class/1163_1.html" class="cname" target="_blank">【掌上阅读】</a>
+                                <a href="/down/html/273040.html" target="_blank">
+                                    <img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20201013/f35b2a2a5519bb43f4ada591c23470cb.jpg" src="//pic.veryhuo.com/upload/soft/20201013/f35b2a2a5519bb43f4ada591c23470cb.jpg" alt="脑洞漫画" style="display: inline;">脑洞漫画 v1.0.0 iphone版                                </a>
+                                <time>2小时前</time>
+                            </li>
+                                                    <li><a href="/down/class/1025_1.html" class="cname" target="_blank">【休闲益智】</a>
+                                <a href="/down/html/273041.html" target="_blank">
+                                    <img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20201013/c22251246c2791f23bf7f176fc8ab3bd.png" src="//pic.veryhuo.com/upload/soft/20201013/c22251246c2791f23bf7f176fc8ab3bd.png" alt="Mind Trainer Math" style="display: inline;">Mind Trainer Math v1.0 ipad版                                </a>
+                                <time>2小时前</time>
+                            </li>
+                                                    <li><a href="/down/class/1026_1.html" class="cname" target="_blank">【角色扮演】</a>
+                                <a href="/down/html/272973.html" target="_blank">
+                                    <img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20201013/c605bedcaf4664b74cdd221aca3492bc.png" src="//pic.veryhuo.com/upload/soft/20201013/c605bedcaf4664b74cdd221aca3492bc.png" alt="我的室友是空姐" style="display: inline;">我的室友是空姐 v1.0 ipad版                                </a>
+                                <time>2小时前</time>
+                            </li>
+                                                    <li><a href="/down/class/1005_1.html" class="cname" target="_blank">【模拟经营】</a>
+                                <a href="/down/html/272997.html" target="_blank">
+                                    <img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20201013/9ac6ea8239727c42b28bd42bd34b8b3e.png" src="//pic.veryhuo.com/upload/soft/20201013/9ac6ea8239727c42b28bd42bd34b8b3e.png" alt="远古文明疯狂部落" style="display: inline;">远古文明疯狂部落 v1.0 iphone版                                </a>
+                                <time>2小时前</time>
+                            </li>
+                                                    <li><a href="/down/class/1172_1.html" class="cname" target="_blank">【实用工具】</a>
+                                <a href="/down/html/272677.html" target="_blank">
+                                    <img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20201012/6bd9d51237b274d6c4152c1cd2e7adbc.png" src="//pic.veryhuo.com/upload/soft/20201012/6bd9d51237b274d6c4152c1cd2e7adbc.png" alt="兆恒水电" style="display: inline;">兆恒水电 v1.0 ipad版                                </a>
+                                <time>2小时前</time>
+                            </li>
+                                                    <li><a href="/down/class/1161_1.html" class="cname" target="_blank">【生活服务】</a>
+                                <a href="/down/html/273002.html" target="_blank">
+                                    <img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20201013/4d62397cb04382c9dfa650e5f7b4c51c.jpg" src="//pic.veryhuo.com/upload/soft/20201013/4d62397cb04382c9dfa650e5f7b4c51c.jpg" alt="晓霆心理" style="display: inline;">晓霆心理 v1.0 iphone版                                </a>
+                                <time>2小时前</time>
+                            </li>
+                                                    <li><a href="/down/class/1027_1.html" class="cname" target="_blank">【动作射击】</a>
+                                <a href="/down/html/272537.html" target="_blank">
+                                    <img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20201012/406bcd3de48b88e279ba7ac7aa76fd68.png" src="//pic.veryhuo.com/upload/soft/20201012/406bcd3de48b88e279ba7ac7aa76fd68.png" alt="糖豆人淘汰赛" style="display: inline;">糖豆人淘汰赛 v1.0 ipad版                                </a>
+                                <time>3小时前</time>
+                            </li>
+                                                    <li><a href="/down/class/991_1.html" class="cname" target="_blank">【手机工具】</a>
+                                <a href="/down/html/272868.html" target="_blank">
+                                    <img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20201013/28732cae22e0522591b6c7c5cf036903.png" src="//pic.veryhuo.com/upload/soft/20201013/28732cae22e0522591b6c7c5cf036903.png" alt="威芈智慧A" style="display: inline;">威芈智慧A v1.0 iphone版                                </a>
+                                <time>3小时前</time>
+                            </li>
+                                                    <li><a href="/down/class/1022_1.html" class="cname" target="_blank">【教育培训】</a>
+                                <a href="/down/html/272674.html" target="_blank">
+                                    <img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20201012/d2702588eae3efa15adece52d01f6b36.jpg" src="//pic.veryhuo.com/upload/soft/20201012/d2702588eae3efa15adece52d01f6b36.jpg" alt="七三课堂" style="display: inline;">七三课堂 v1.1.9 iPad版                                </a>
+                                <time>3小时前</time>
+                            </li>
+                                                    <li><a href="/down/class/1007_1.html" class="cname" target="_blank">【赛车竞速】</a>
+                                <a href="/down/html/272980.html" target="_blank">
+                                    <img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20201013/1ab6ae83f7b5e1c9cdca7a210d9381b3.png" src="//pic.veryhuo.com/upload/soft/20201013/1ab6ae83f7b5e1c9cdca7a210d9381b3.png" alt="真正的汽车游戏专业版" style="display: inline;">真正的汽车游戏专业版 v1.0 iphone版                                </a>
+                                <time>3小时前</time>
+                            </li>
+                                                    <li><a href="/down/class/1029_1.html" class="cname" target="_blank">【体育竞技】</a>
+                                <a href="/down/html/272982.html" target="_blank">
+                                    <img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20201013/66de860587bcb2344148369ea4d031ae.png" src="//pic.veryhuo.com/upload/soft/20201013/66de860587bcb2344148369ea4d031ae.png" alt="Beach Volleyball" style="display: inline;">Beach Volleyball v1.0 ipad版                                </a>
+                                <time>4小时前</time>
+                            </li>
+                                                    <li><a href="/down/class/994_1.html" class="cname" target="_blank">【影音娱乐】</a>
+                                <a href="/down/html/272952.html" target="_blank">
+                                    <img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20201013/8fcb9dc1bd679359bf123a736bafff30.png" src="//pic.veryhuo.com/upload/soft/20201013/8fcb9dc1bd679359bf123a736bafff30.png" alt="叮咚直播平台" style="display: inline;">叮咚直播平台 v1.0 iphone版                                </a>
+                                <time>4小时前</time>
+                            </li>
+                                                    <li><a href="/down/class/1018_1.html" class="cname" target="_blank">【交通出行】</a>
+                                <a href="/down/html/272934.html" target="_blank">
+                                    <img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20201013/71c57458e54bbed4d473a29d6bd47c29.png" src="//pic.veryhuo.com/upload/soft/20201013/71c57458e54bbed4d473a29d6bd47c29.png" alt="大河票务商家版" style="display: inline;">大河票务商家版 v1.0 ipad版                                </a>
+                                <time>4小时前</time>
+                            </li>
+                                                    <li><a href="/down/class/1005_1.html" class="cname" target="_blank">【模拟经营】</a>
+                                <a href="/down/html/272972.html" target="_blank">
+                                    <img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20201013/9a04ac51d13e5b34fdcae41ac515990c.png" src="//pic.veryhuo.com/upload/soft/20201013/9a04ac51d13e5b34fdcae41ac515990c.png" alt="农贸市场3D" style="display: inline;">农贸市场3D v1.0 iphone版                                </a>
+                                <time>4小时前</time>
+                            </li>
+                                                <!-- <li class="UlBorder"></li> -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--右边-->
+        <div class="CReRight">
+            <div class="CRRHotGame">
+                <div class="CRTitle">
+                    <p>热门手游</p>
+                    <span><a href="/down/class/611_1.html" target="_blank">更多+</a></span>
+                </div>
+                <ul>
+                                            <li>
+                            <a href="/down/html/241834.html" target="_blank" style="overflow: hidden;">
+                                <img src="//pic.veryhuo.com/upload/soft/20200421/4b4af2b9ab1a054933f8105931ce3ec1.png" alt="黑潮之上"><span>黑潮之上</span>
+                            </a>
+                        </li>
+                                            <li>
+                            <a href="/down/html/242993.html" target="_blank" style="overflow: hidden;">
+                                <img src="//pic.veryhuo.com/upload/soft/20200429/8b2e27a9610371226c7f6b0b429cce84.png" alt="偶像梦幻祭2"><span>偶像梦幻祭2</span>
+                            </a>
+                        </li>
+                                            <li>
+                            <a href="/down/html/243902.html" target="_blank" style="overflow: hidden;">
+                                <img src="//pic.veryhuo.com/upload/soft/20200509/d6f3a1acb6134e677691abfaa4fdeb3b.jpg" alt="原神"><span>原神</span>
+                            </a>
+                        </li>
+                                            <li>
+                            <a href="/down/html/244208.html" target="_blank" style="overflow: hidden;">
+                                <img src="//pic.veryhuo.com/upload/soft/20200512/8fe52eadaab878a77479f387f219c0a2.jpg" alt="天涯明月刀"><span>天涯明月刀</span>
+                            </a>
+                        </li>
+                                            <li>
+                            <a href="/down/html/245038.html" target="_blank" style="overflow: hidden;">
+                                <img src="//pic.veryhuo.com/upload/soft/20200520/ac7a68f4c6903baaf2e4778371ae95c3.png" alt="巨像骑士团"><span>巨像骑士团</span>
+                            </a>
+                        </li>
+                                            <li>
+                            <a href="/down/html/248270.html" target="_blank" style="overflow: hidden;">
+                                <img src="//pic.veryhuo.com/upload/soft/20200615/41882aca0f5f8a20ee5b39ca28a41e13.png" alt="钢琴师"><span>钢琴师</span>
+                            </a>
+                        </li>
+                                    </ul>
+            </div>
+            <div class="CRRSpecial">
+                <div class="CRTitle">
+                    <p>专题推荐</p>
+                    <span><a href="/z/class" target="_blank">更多+</a></span>
+                </div>
+                                    <a href="/z/meishi_zuqiu_bifen_app/" target="_blank">
+                        <img src="//pic.veryhuo.com/upload/spec/20201012/2c4b54b7f2c6b8fc2ecd1521bec2fcdb.jpg" class="" alt="哪里能看美式足球比分直播软件">
+                        <strong>哪里能看美式足球比分直播软件</strong>
+                    </a>
+                                    <a href="/z/hongmofang_zhibo/" target="_blank">
+                        <img src="//pic.veryhuo.com/upload/spec/20201012/87ca5c571472110cd8b11c2127ec123f.jpg" class="mr" alt="红磨坊直播app推荐">
+                        <strong>红磨坊直播app推荐</strong>
+                    </a>
+                                    <a href="/z/shengcun_maoxian_shouyou/" target="_blank">
+                        <img src="//pic.veryhuo.com/upload/spec/20201012/8306f22733aaaef0d37ebb499e9a57f8.jpg" class="" alt="生存冒险手游合集">
+                        <strong>生存冒险手游合集</strong>
+                    </a>
+                                    <a href="/z/wangqiu_bifen_zhibo/" target="_blank">
+                        <img src="//pic.veryhuo.com/upload/spec/20201012/ea090518953b7da6c467bd5799e2c516.jpg" class="mr" alt="2020年最好用的网球直播软件">
+                        <strong>2020年最好用的网球直播软件</strong>
+                    </a>
+                                    <a href="/z/u9_caipiao/" target="_blank">
+                        <img src="//pic.veryhuo.com/upload/spec/20201012/1513bf4cd7117f0bba5775a4afd25729.jpg" class="" alt="u9彩票软件合集">
+                        <strong>u9彩票软件合集</strong>
+                    </a>
+                                    <a href="/z/258_caipiao/" target="_blank">
+                        <img src="//pic.veryhuo.com/upload/spec/20201012/41571a928853dd7c54fbff84e8c3acb7.jpg" class="mr" alt="258彩票app推荐">
+                        <strong>258彩票app推荐</strong>
+                    </a>
+                            </div>
+        </div>
+    </div>
+    <!--常用软件-->
+    
+        <div class="main-pc mt20 w" id="mainpc">
+        <div class="main-hd" id="software">
+            <h3>常用软件</h3>
+        </div>
+        <div class="cyrjBox clearfix">
+            <div class="soft-top mt20 clearfix" id="recnew-box">
+            <div class="m-box fl">
+                <p class="title">电脑必备<a href="/computersoft.html" rel="nofollow" target="_blank">更多+</a></p>
+                <ul class="zdyz-list new clearfix">
+                                                <li>
+                            <a href="/down/html/214395.html" class="img" target="_blank">
+                                <img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20200710/ad187c22d5508d78eb8ad3fa32a182f0.jpg" src="//pic.veryhuo.com/upload/soft/20200710/ad187c22d5508d78eb8ad3fa32a182f0.jpg" alt="腾讯TIM" style="display: block;">
+                            </a>
+                            <div class="intro">
+                                <p class="tit"><a href="/down/html/214395.html" target="_blank">腾讯TIM</a></p>
+                                <p><i class="stars star4"></i></p>
+                                <p class="other">2020-07-13</p>
+                            </div>
+                        </li>
+                                                <li>
+                            <a href="/down/html/216307.html" class="img" target="_blank">
+                                <img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20190705/2ea661b5a5e92dc909dc9f4e2cf39bbd.png" src="//pic.veryhuo.com/upload/soft/20190705/2ea661b5a5e92dc909dc9f4e2cf39bbd.png" alt="搜狗输入法" style="display: block;">
+                            </a>
+                            <div class="intro">
+                                <p class="tit"><a href="/down/html/216307.html" target="_blank">搜狗输入法</a></p>
+                                <p><i class="stars star4"></i></p>
+                                <p class="other">2020-09-27</p>
+                            </div>
+                        </li>
+                                                <li>
+                            <a href="/down/html/232475.html" class="img" target="_blank">
+                                <img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20200106/6c09d98656bf53ea0c0dd5a008e2a090.png" src="//pic.veryhuo.com/upload/soft/20200106/6c09d98656bf53ea0c0dd5a008e2a090.png" alt="谷歌浏览器64位" style="display: block;">
+                            </a>
+                            <div class="intro">
+                                <p class="tit"><a href="/down/html/232475.html" target="_blank">谷歌浏览器64位</a></p>
+                                <p><i class="stars star3"></i></p>
+                                <p class="other">2020-07-13</p>
+                            </div>
+                        </li>
+                                                <li>
+                            <a href="/down/html/220339.html" class="img" target="_blank">
+                                <img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20200713/c80f15e12d3126b2b3827da162d4c8a7.png" src="//pic.veryhuo.com/upload/soft/20200713/c80f15e12d3126b2b3827da162d4c8a7.png" alt="WPS Office" style="display: block;">
+                            </a>
+                            <div class="intro">
+                                <p class="tit"><a href="/down/html/220339.html" target="_blank">WPS Office</a></p>
+                                <p><i class="stars star5"></i></p>
+                                <p class="other">2020-07-13</p>
+                            </div>
+                        </li>
+                                                <li>
+                            <a href="/down/html/214983.html" class="img" target="_blank">
+                                <img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20190628/c96925b2bbf346f8ade9149325bca06d.png" src="//pic.veryhuo.com/upload/soft/20190628/c96925b2bbf346f8ade9149325bca06d.png" alt="Avast 杀毒软件" style="display: block;">
+                            </a>
+                            <div class="intro">
+                                <p class="tit"><a href="/down/html/214983.html" target="_blank">Avast 杀毒软件</a></p>
+                                <p><i class="stars star5"></i></p>
+                                <p class="other">2020-07-13</p>
+                            </div>
+                        </li>
+                                                <li>
+                            <a href="/down/html/237183.html" class="img" target="_blank">
+                                <img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20200311/7314556bd1c349be19c971ab0e057f0d.png" src="//pic.veryhuo.com/upload/soft/20200311/7314556bd1c349be19c971ab0e057f0d.png" alt="钉钉(DingTalk)" style="display: block;">
+                            </a>
+                            <div class="intro">
+                                <p class="tit"><a href="/down/html/237183.html" target="_blank">钉钉(DingTalk)</a></p>
+                                <p><i class="stars star5"></i></p>
+                                <p class="other">2020-09-19</p>
+                            </div>
+                        </li>
+                                                <li>
+                            <a href="/down/html/233926.html" class="img" target="_blank">
+                                <img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20200201/2d4b699dae5cb2ce432f7b5343bea361.png" src="//pic.veryhuo.com/upload/soft/20200201/2d4b699dae5cb2ce432f7b5343bea361.png" alt="爱奇艺视频播放器" style="display: block;">
+                            </a>
+                            <div class="intro">
+                                <p class="tit"><a href="/down/html/233926.html" target="_blank">爱奇艺视频播放器</a></p>
+                                <p><i class="stars star3"></i></p>
+                                <p class="other">2020-07-13</p>
+                            </div>
+                        </li>
+                                                <li>
+                            <a href="/down/html/215477.html" class="img" target="_blank">
+                                <img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20190702/d1ca164f6ba90504c2540d0b57f954f8.png" src="//pic.veryhuo.com/upload/soft/20190702/d1ca164f6ba90504c2540d0b57f954f8.png" alt="迅雷X" style="display: block;">
+                            </a>
+                            <div class="intro">
+                                <p class="tit"><a href="/down/html/215477.html" target="_blank">迅雷X</a></p>
+                                <p><i class="stars star4"></i></p>
+                                <p class="other">2020-07-13</p>
+                            </div>
+                        </li>
+                                                <li>
+                            <a href="/down/html/239600.html" class="img" target="_blank">
+                                <img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20200402/0aa422c4f643468ef326fccfe1aa8224.png" src="//pic.veryhuo.com/upload/soft/20200402/0aa422c4f643468ef326fccfe1aa8224.png" alt="驱动人生" style="display: block;">
+                            </a>
+                            <div class="intro">
+                                <p class="tit"><a href="/down/html/239600.html" target="_blank">驱动人生</a></p>
+                                <p><i class="stars star5"></i></p>
+                                <p class="other">2020-07-13</p>
+                            </div>
+                        </li>
+                                                <li>
+                            <a href="/down/html/213106.html" class="img" target="_blank">
+                                <img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20190619/3e793844f0d89e80aebe444ef44a2a1f.png" src="//pic.veryhuo.com/upload/soft/20190619/3e793844f0d89e80aebe444ef44a2a1f.png" alt="网易云音乐" style="display: block;">
+                            </a>
+                            <div class="intro">
+                                <p class="tit"><a href="/down/html/213106.html" target="_blank">网易云音乐</a></p>
+                                <p><i class="stars star3"></i></p>
+                                <p class="other">2020-07-13</p>
+                            </div>
+                        </li>
+                                        </ul>
+            </div>
+            <div class="m-box fl">
+                <p class="title">安卓必备<a href="/androidsoft.html" rel="nofollow" target="_blank">更多+</a></p>
+                <ul class="zdyz-list new clearfix">
+                                                <li>
+                            <a href="/down/html/205436.html" class="img" target="_blank">
+                                <img class="lazy" data-original="//pic.veryhuo.com/uploads/allimg/1903/394-1Z3140955280-L.png" src="//pic.veryhuo.com/uploads/allimg/1903/394-1Z3140955280-L.png" alt="QQ" style="display: block;">
+                            </a>
+                            <div class="intro">
+                                <p class="tit"><a href="/down/html/205436.html" target="_blank">QQ</a></p>
+                                <p><i class="stars star5"></i></p>
+                                <p class="other">2020-07-11</p>
+                            </div>
+                        </li>
+                                                <li>
+                            <a href="/down/html/230457.html" class="img" target="_blank">
+                                <img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20191219/41f4be71c38e899ad8e13d8804499a23.png" src="//pic.veryhuo.com/upload/soft/20191219/41f4be71c38e899ad8e13d8804499a23.png" alt="微信" style="display: block;">
+                            </a>
+                            <div class="intro">
+                                <p class="tit"><a href="/down/html/230457.html" target="_blank">微信</a></p>
+                                <p><i class="stars star4"></i></p>
+                                <p class="other">2020-07-13</p>
+                            </div>
+                        </li>
+                                                <li>
+                            <a href="/down/html/223538.html" class="img" target="_blank">
+                                <img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20191008/dd63c377430346e52e19bdfc838ba973.jpg" src="//pic.veryhuo.com/upload/soft/20191008/dd63c377430346e52e19bdfc838ba973.jpg" alt="抖音" style="display: block;">
+                            </a>
+                            <div class="intro">
+                                <p class="tit"><a href="/down/html/223538.html" target="_blank">抖音</a></p>
+                                <p><i class="stars star4"></i></p>
+                                <p class="other">2020-07-13</p>
+                            </div>
+                        </li>
+                                                <li>
+                            <a href="/down/html/213105.html" class="img" target="_blank">
+                                <img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20190524/9d9e1ea259aebcc3f97ac6a53f3b0e0f.png" src="//pic.veryhuo.com/upload/soft/20190524/9d9e1ea259aebcc3f97ac6a53f3b0e0f.png" alt="百度地图" style="display: block;">
+                            </a>
+                            <div class="intro">
+                                <p class="tit"><a href="/down/html/213105.html" target="_blank">百度地图</a></p>
+                                <p><i class="stars star3"></i></p>
+                                <p class="other">2020-07-13</p>
+                            </div>
+                        </li>
+                                                <li>
+                            <a href="/down/html/205446.html" class="img" target="_blank">
+                                <img class="lazy" data-original="//pic.veryhuo.com/uploads/allimg/1903/394-1Z3141325060-L.png" src="//pic.veryhuo.com/uploads/allimg/1903/394-1Z3141325060-L.png" alt="手机淘宝" style="display: block;">
+                            </a>
+                            <div class="intro">
+                                <p class="tit"><a href="/down/html/205446.html" target="_blank">手机淘宝</a></p>
+                                <p><i class="stars star5"></i></p>
+                                <p class="other">2020-08-13</p>
+                            </div>
+                        </li>
+                                                <li>
+                            <a href="/down/html/213452.html" class="img" target="_blank">
+                                <img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20190614/803a6855e18b8725831d1681bb997c31.png" src="//pic.veryhuo.com/upload/soft/20190614/803a6855e18b8725831d1681bb997c31.png" alt="美团外卖" style="display: block;">
+                            </a>
+                            <div class="intro">
+                                <p class="tit"><a href="/down/html/213452.html" target="_blank">美团外卖</a></p>
+                                <p><i class="stars star5"></i></p>
+                                <p class="other">2020-07-31</p>
+                            </div>
+                        </li>
+                                                <li>
+                            <a href="/down/html/213110.html" class="img" target="_blank">
+                                <img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20190524/6e5b000f6a4cb1a94fed07c68e5361e0.png" src="//pic.veryhuo.com/upload/soft/20190524/6e5b000f6a4cb1a94fed07c68e5361e0.png" alt="新浪微博" style="display: block;">
+                            </a>
+                            <div class="intro">
+                                <p class="tit"><a href="/down/html/213110.html" target="_blank">新浪微博</a></p>
+                                <p><i class="stars star5"></i></p>
+                                <p class="other">2020-07-13</p>
+                            </div>
+                        </li>
+                                                <li>
+                            <a href="/down/html/213093.html" class="img" target="_blank">
+                                <img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20190524/11d22feca5a815887348e456c64c3ecf.png" src="//pic.veryhuo.com/upload/soft/20190524/11d22feca5a815887348e456c64c3ecf.png" alt="QQ音乐" style="display: block;">
+                            </a>
+                            <div class="intro">
+                                <p class="tit"><a href="/down/html/213093.html" target="_blank">QQ音乐</a></p>
+                                <p><i class="stars star4"></i></p>
+                                <p class="other">2020-09-11</p>
+                            </div>
+                        </li>
+                                                <li>
+                            <a href="/down/html/213752.html" class="img" target="_blank">
+                                <img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20200619/dc236dc30b01e56f7c0dadc739af5f70.png" src="//pic.veryhuo.com/upload/soft/20200619/dc236dc30b01e56f7c0dadc739af5f70.png" alt="wifi万能钥匙" style="display: block;">
+                            </a>
+                            <div class="intro">
+                                <p class="tit"><a href="/down/html/213752.html" target="_blank">wifi万能钥匙</a></p>
+                                <p><i class="stars star3"></i></p>
+                                <p class="other">2020-07-31</p>
+                            </div>
+                        </li>
+                                                <li>
+                            <a href="/down/html/206105.html" class="img" target="_blank">
+                                <img class="lazy" data-original="//pic.veryhuo.com/uploads/allimg/1904/394-1Z4011534170-L.png" src="//pic.veryhuo.com/uploads/allimg/1904/394-1Z4011534170-L.png" alt="今日头条" style="display: block;">
+                            </a>
+                            <div class="intro">
+                                <p class="tit"><a href="/down/html/206105.html" target="_blank">今日头条</a></p>
+                                <p><i class="stars star5"></i></p>
+                                <p class="other">2020-07-13</p>
+                            </div>
+                        </li>
+                                        </ul>
+            </div>
+            <div class="m-box fl" style="padding-right: 0px;">
+                <p class="title">苹果必备<a href="/iphonesoft.html" rel="nofollow" target="_blank">更多+</a></p>
+                <ul class="zdyz-list new clearfix">
+                                            <li>
+                            <a href="/down/html/213476.html" class="img" target="_blank">
+                                <img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20200711/cdfc8ed9e2f6b2d7fecb241c6ef76dd0.png" src="//pic.veryhuo.com/upload/soft/20200711/cdfc8ed9e2f6b2d7fecb241c6ef76dd0.png" alt="拼多多" style="display: block;">
+                            </a>
+                            <div class="intro">
+                                <p class="tit"><a href="/down/html/213476.html" target="_blank">拼多多</a></p>
+                                <p><i class="stars star3"></i></p>
+                                <p class="other">2020-08-06</p>
+                            </div>
+                        </li>
+                                                <li>
+                            <a href="/down/html/214070.html" class="img" target="_blank">
+                                <img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20200711/f34b66c4dcb86e1359dda6ff4aae6159.png" src="//pic.veryhuo.com/upload/soft/20200711/f34b66c4dcb86e1359dda6ff4aae6159.png" alt="支付宝" style="display: block;">
+                            </a>
+                            <div class="intro">
+                                <p class="tit"><a href="/down/html/214070.html" target="_blank">支付宝</a></p>
+                                <p><i class="stars star3"></i></p>
+                                <p class="other">2020-07-28</p>
+                            </div>
+                        </li>
+                                                <li>
+                            <a href="/down/html/229867.html" class="img" target="_blank">
+                                <img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20191216/62669fbfac5967494ff8d55ce23bb94a.jpg" src="//pic.veryhuo.com/upload/soft/20191216/62669fbfac5967494ff8d55ce23bb94a.jpg" alt="百度" style="display: block;">
+                            </a>
+                            <div class="intro">
+                                <p class="tit"><a href="/down/html/229867.html" target="_blank">百度</a></p>
+                                <p><i class="stars star4"></i></p>
+                                <p class="other">2020-08-27</p>
+                            </div>
+                        </li>
+                                                <li>
+                            <a href="/down/html/223342.html" class="img" target="_blank">
+                                <img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20190929/1574e1ea581d8e4021992ba951454655.jpg" src="//pic.veryhuo.com/upload/soft/20190929/1574e1ea581d8e4021992ba951454655.jpg" alt="剪映" style="display: block;">
+                            </a>
+                            <div class="intro">
+                                <p class="tit"><a href="/down/html/223342.html" target="_blank">剪映</a></p>
+                                <p><i class="stars star5"></i></p>
+                                <p class="other">2020-07-13</p>
+                            </div>
+                        </li>
+                                                <li>
+                            <a href="/down/html/78307.html" class="img" target="_blank">
+                                <img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20200911/56fee35a56f22a1075bacf5d141cbb20.png" src="//pic.veryhuo.com/upload/soft/20200911/56fee35a56f22a1075bacf5d141cbb20.png" alt="哔哩哔哩" style="display: block;">
+                            </a>
+                            <div class="intro">
+                                <p class="tit"><a href="/down/html/78307.html" target="_blank">哔哩哔哩</a></p>
+                                <p><i class="stars star4"></i></p>
+                                <p class="other">2020-09-11</p>
+                            </div>
+                        </li>
+                                                <li>
+                            <a href="/down/html/216364.html" class="img" target="_blank">
+                                <img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20190705/af41be831ad7ef5184806475ae73c781.png" src="//pic.veryhuo.com/upload/soft/20190705/af41be831ad7ef5184806475ae73c781.png" alt="小红书" style="display: block;">
+                            </a>
+                            <div class="intro">
+                                <p class="tit"><a href="/down/html/216364.html" target="_blank">小红书</a></p>
+                                <p><i class="stars star3"></i></p>
+                                <p class="other">2020-07-13</p>
+                            </div>
+                        </li>
+                                                <li>
+                            <a href="/down/html/213256.html" class="img" target="_blank">
+                                <img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20190612/f028e01a185490e941b82b6360744264.png" src="//pic.veryhuo.com/upload/soft/20190612/f028e01a185490e941b82b6360744264.png" alt="高德地图" style="display: block;">
+                            </a>
+                            <div class="intro">
+                                <p class="tit"><a href="/down/html/213256.html" target="_blank">高德地图</a></p>
+                                <p><i class="stars star5"></i></p>
+                                <p class="other">2020-07-13</p>
+                            </div>
+                        </li>
+                                                <li>
+                            <a href="/down/html/119795.html" class="img" target="_blank">
+                                <img class="lazy" data-original="//pic.veryhuo.com/uploads/allimg/1604/1-16041G451470-L.png" src="//pic.veryhuo.com/uploads/allimg/1604/1-16041G451470-L.png" alt="交管12123苹果版" style="display: block;">
+                            </a>
+                            <div class="intro">
+                                <p class="tit"><a href="/down/html/119795.html" target="_blank">交管12123苹果版</a></p>
+                                <p><i class="stars star3"></i></p>
+                                <p class="other">2020-07-13</p>
+                            </div>
+                        </li>
+                                                <li>
+                            <a href="/down/html/223408.html" class="img" target="_blank">
+                                <img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20190929/8c9bb6b28439024d816fe9cc3d05aef4.jpg" src="//pic.veryhuo.com/upload/soft/20190929/8c9bb6b28439024d816fe9cc3d05aef4.jpg" alt="微视" style="display: block;">
+                            </a>
+                            <div class="intro">
+                                <p class="tit"><a href="/down/html/223408.html" target="_blank">微视</a></p>
+                                <p><i class="stars star4"></i></p>
+                                <p class="other">2020-07-13</p>
+                            </div>
+                        </li>
+                                                <li>
+                            <a href="/down/html/214406.html" class="img" target="_blank">
+                                <img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20190626/629ac0564577ccaf738035ce27e5d225.jpg" src="//pic.veryhuo.com/upload/soft/20190626/629ac0564577ccaf738035ce27e5d225.jpg" alt="闲鱼" style="display: block;">
+                            </a>
+                            <div class="intro">
+                                <p class="tit"><a href="/down/html/214406.html" target="_blank">闲鱼</a></p>
+                                <p><i class="stars star4"></i></p>
+                                <p class="other">2020-07-13</p>
+                            </div>
+                        </li>
+                                        </ul>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <!--安卓热门应用-->
+    <div class="mainBody J_g_mouseover_tab" id="az-box" style="height: 340px;">
+        <div class="CGameTitle">
+            <i class="CGTAnd CGTAnd_az"></i>
+            <a href="/down/class/363_1.html" style="display: block;" class="more" rel="nofollow" target="_blank">更多+</a>
+            <h2>最热安卓软件/游戏</h2>
+        </div>
+        <div class="TypeContent J_tab_cont azContent">
+            <div id="az_soft" class="tab-cont-item" style="display: block;">
+                <!--左边-->
+                <div class="CGameCLList">
+                    <ul>
+                                                    <li>
+                                <a href="/down/html/272266.html" target="_blank">
+                                    <img class="lazy" data-original="" src="//pic.veryhuo.com/upload/soft/20201010/4899fb86a7682da3b3a531d021f39cdc.png" alt="大嘴棋牌2021" style="display: inline;">
+                                    <p>大嘴棋牌2021</p>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/down/html/271861.html" target="_blank">
+                                    <img class="lazy" data-original="" src="//pic.veryhuo.com/upload/soft/20201009/d6eba52e1538387139606b88d60849b5.png" alt="帝临鸿蒙传奇" style="display: inline;">
+                                    <p>帝临鸿蒙传奇</p>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/down/html/272252.html" target="_blank">
+                                    <img class="lazy" data-original="" src="//pic.veryhuo.com/upload/soft/20201010/4100814cc28b5207595b61b799559566.png" alt="百度金融" style="display: inline;">
+                                    <p>百度金融</p>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/down/html/272035.html" target="_blank">
+                                    <img class="lazy" data-original="" src="//pic.veryhuo.com/upload/soft/20200918/02133f7bf5bd7178e936123b4a520927.png" alt="3d红五图库" style="display: inline;">
+                                    <p>3d红五图库</p>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/down/html/272149.html" target="_blank">
+                                    <img class="lazy" data-original="" src="//pic.veryhuo.com/upload/soft/20200115/b79528fb86ede6017be35c072fd97c89.png" alt="北极星直播" style="display: inline;">
+                                    <p>北极星直播</p>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/down/html/271992.html" target="_blank">
+                                    <img class="lazy" data-original="" src="//pic.veryhuo.com/upload/game/20200929/5dbf1124aa32f257637ef0e61dd0a05d.jpg" alt="途游捕鱼免费金币版" style="display: inline;">
+                                    <p>途游捕鱼免费金币版</p>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/down/html/272003.html" target="_blank">
+                                    <img class="lazy" data-original="" src="//pic.veryhuo.com/upload/soft/20201010/8958bf527a52597ce4f7a11360e39c3c.png" alt="懒熊优选" style="display: inline;">
+                                    <p>懒熊优选</p>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/down/html/272099.html" target="_blank">
+                                    <img class="lazy" data-original="" src="//pic.veryhuo.com/upload/soft/20201010/0343351b9a7df6ee80ea6effc338e4ce.png" alt="海南七星彩" style="display: inline;">
+                                    <p>海南七星彩</p>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/down/html/272212.html" target="_blank">
+                                    <img class="lazy" data-original="" src="//pic.veryhuo.com/upload/soft/20201010/85a90ca4fa003aa27b94119357817bbd.gif" alt="西域降魔" style="display: inline;">
+                                    <p>西域降魔</p>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/down/html/272240.html" target="_blank">
+                                    <img class="lazy" data-original="" src="//pic.veryhuo.com/upload/soft/20201010/2d08bfecaba6e051f19a3da45ed6c3e1.png" alt="星际棋牌2021" style="display: inline;">
+                                    <p>星际棋牌2021</p>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/down/html/272213.html" target="_blank">
+                                    <img class="lazy" data-original="" src="//pic.veryhuo.com/upload/soft/20201010/200c90d702e0ce3b01dbb4af14befa58.png" alt="球迷网" style="display: inline;">
+                                    <p>球迷网</p>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/down/html/272210.html" target="_blank">
+                                    <img class="lazy" data-original="" src="//pic.veryhuo.com/upload/soft/20201010/47fa9d629d4bd51b43e2f0d32ad5ee45.png" alt="来秀直播" style="display: inline;">
+                                    <p>来秀直播</p>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/down/html/271935.html" target="_blank">
+                                    <img class="lazy" data-original="" src="//pic.veryhuo.com/upload/soft/20200903/f11b18bfbfa00481d118a0773632a7f7.jpg" alt="大乐透机选" style="display: inline;">
+                                    <p>大乐透机选</p>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/down/html/271953.html" target="_blank">
+                                    <img class="lazy" data-original="" src="//pic.veryhuo.com/upload/soft/20201010/4049f02ed9e6a61abd41f478ef7adc04.png" alt="Vv小秘书" style="display: inline;">
+                                    <p>Vv小秘书</p>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/down/html/272107.html" target="_blank">
+                                    <img class="lazy" data-original="" src="//pic.veryhuo.com/upload/soft/20200818/585905fb4592a73faf5f5e23d75b6aac.png" alt="6合开奖记录" style="display: inline;">
+                                    <p>6合开奖记录</p>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/down/html/272118.html" target="_blank">
+                                    <img class="lazy" data-original="" src="//pic.veryhuo.com/upload/soft/20200904/1658a6312a09d93a3b47c1cb1055e26a.png" alt="排列三试机号" style="display: inline;">
+                                    <p>排列三试机号</p>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/down/html/271857.html" target="_blank">
+                                    <img class="lazy" data-original="" src="//pic.veryhuo.com/upload/soft/20201009/b59c7afa3916b22ab96e608288dd5626.png" alt="球球传奇" style="display: inline;">
+                                    <p>球球传奇</p>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/down/html/272198.html" target="_blank">
+                                    <img class="lazy" data-original="" src="//pic.veryhuo.com/upload/soft/20191220/a0e791e7aca377e5bd6b497dbaba637d.png" alt="闪闪直播" style="display: inline;">
+                                    <p>闪闪直播</p>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/down/html/272135.html" target="_blank">
+                                    <img class="lazy" data-original="" src="//pic.veryhuo.com/upload/soft/20200915/0d647a9087f4b3acc6a228fd43131f4a.jpg" alt="玄机图解特" style="display: inline;">
+                                    <p>玄机图解特</p>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/down/html/272190.html" target="_blank">
+                                    <img class="lazy" data-original="" src="//pic.veryhuo.com/upload/soft/20201010/a38bcdff2741bce69165d87628c4b9db.jpg" alt="企鹅体育" style="display: inline;">
+                                    <p>企鹅体育</p>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/down/html/272044.html" target="_blank">
+                                    <img class="lazy" data-original="" src="//pic.veryhuo.com/upload/soft/20200812/eb17399c5e0df2f2356c2c0399532294.png" alt="132彩票" style="display: inline;">
+                                    <p>132彩票</p>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/down/html/271963.html" target="_blank">
+                                    <img class="lazy" data-original="" src="//pic.veryhuo.com/upload/soft/20201010/f9d91142b10ed767665edcf7ebd4134d.png" alt="资质宝典" style="display: inline;">
+                                    <p>资质宝典</p>
+                                </a>
+                            </li>
+                                            </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--苹果热门应用-->
+    <div class="mainBody J_g_mouseover_tab" id="pg-box" style="height: 340px;">
+        <div class="CGameTitle mt20">
+            <i class="CGTAnd CGTAnd_pg"></i>
+            <a style="display: block;" href="/down/class/986_1.html" class="more" rel="nofollow" target="_blank">更多+</a>
+            <h2>最热苹果软件/游戏</h2>
+        </div>
+        <div class="TypeContent J_tab_cont pgContent">
+            <div class="tab-cont-item" style="display: block;">
+                <div class="CGameCLList">
+                    <ul>
+                                                    <li>
+                                <a href="/down/html/271919.html" target="_blank"><img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20201009/b4cb3272564c00a5df6d85fb5e742abc.jpg" src="//pic.veryhuo.com/upload/soft/20201009/b4cb3272564c00a5df6d85fb5e742abc.jpg" alt="听舞" style="display: inline;">
+                                    <p>听舞</p>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/down/html/272131.html" target="_blank"><img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20201010/d4a43454d25a8e7eb321ed6fb0922d23.jpg" src="//pic.veryhuo.com/upload/soft/20201010/d4a43454d25a8e7eb321ed6fb0922d23.jpg" alt="西宁水利云" style="display: inline;">
+                                    <p>西宁水利云</p>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/down/html/272121.html" target="_blank"><img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20201010/f2de0883bcfbe50f9024b515b8609499.png" src="//pic.veryhuo.com/upload/soft/20201010/f2de0883bcfbe50f9024b515b8609499.png" alt="钛音" style="display: inline;">
+                                    <p>钛音</p>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/down/html/271802.html" target="_blank"><img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20201009/3fbc147ba7e2480a503bae8f11851dd3.png" src="//pic.veryhuo.com/upload/soft/20201009/3fbc147ba7e2480a503bae8f11851dd3.png" alt="嘻游大冒险" style="display: inline;">
+                                    <p>嘻游大冒险</p>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/down/html/272182.html" target="_blank"><img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20201010/85891705d38fea9f70fd436bd8695fff.png" src="//pic.veryhuo.com/upload/soft/20201010/85891705d38fea9f70fd436bd8695fff.png" alt="山海余升" style="display: inline;">
+                                    <p>山海余升</p>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/down/html/272185.html" target="_blank"><img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20201010/ebd91fa8f43376d6b77af163ba65611d.png" src="//pic.veryhuo.com/upload/soft/20201010/ebd91fa8f43376d6b77af163ba65611d.png" alt="Clicky Cow" style="display: inline;">
+                                    <p>Clicky Cow</p>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/down/html/271924.html" target="_blank"><img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20201009/a1d26c8af66cd2d4a1f5fc8628e4d1e0.png" src="//pic.veryhuo.com/upload/soft/20201009/a1d26c8af66cd2d4a1f5fc8628e4d1e0.png" alt="管好车" style="display: inline;">
+                                    <p>管好车</p>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/down/html/271754.html" target="_blank"><img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20201009/c3ede0820b3496a5ad5735985287560d.png" src="//pic.veryhuo.com/upload/soft/20201009/c3ede0820b3496a5ad5735985287560d.png" alt="抖音彩色骑士3D" style="display: inline;">
+                                    <p>抖音彩色骑士3D</p>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/down/html/272124.html" target="_blank"><img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20201010/c8625ce53485373e9432deae579b1f1a.png" src="//pic.veryhuo.com/upload/soft/20201010/c8625ce53485373e9432deae579b1f1a.png" alt="红桃尖农场端" style="display: inline;">
+                                    <p>红桃尖农场端</p>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/down/html/272165.html" target="_blank"><img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20201010/3928da6ce62dd7ec185958b0ea46f6cf.jpg" src="//pic.veryhuo.com/upload/soft/20201010/3928da6ce62dd7ec185958b0ea46f6cf.jpg" alt="海康互联Pro" style="display: inline;">
+                                    <p>海康互联Pro</p>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/down/html/271920.html" target="_blank"><img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20201009/696d69cd621eb1446c49d42eadac4a0d.png" src="//pic.veryhuo.com/upload/soft/20201009/696d69cd621eb1446c49d42eadac4a0d.png" alt="机房云控" style="display: inline;">
+                                    <p>机房云控</p>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/down/html/271908.html" target="_blank"><img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20201009/3cf83a235c9e0d1a02aa0af055c4f530.jpg" src="//pic.veryhuo.com/upload/soft/20201009/3cf83a235c9e0d1a02aa0af055c4f530.jpg" alt="算数马拉松" style="display: inline;">
+                                    <p>算数马拉松</p>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/down/html/271814.html" target="_blank"><img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20201009/ed6b7ea270c4a41a2aca08f7483e73a3.png" src="//pic.veryhuo.com/upload/soft/20201009/ed6b7ea270c4a41a2aca08f7483e73a3.png" alt="大叔追美记" style="display: inline;">
+                                    <p>大叔追美记</p>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/down/html/272109.html" target="_blank"><img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20201010/2f4ec1c86c83aa25d6bf47fae8e3a71b.png" src="//pic.veryhuo.com/upload/soft/20201010/2f4ec1c86c83aa25d6bf47fae8e3a71b.png" alt="狮之说老师端" style="display: inline;">
+                                    <p>狮之说老师端</p>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/down/html/271929.html" target="_blank"><img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20201009/c4ead18da83506db890d944130cdc22b.png" src="//pic.veryhuo.com/upload/soft/20201009/c4ead18da83506db890d944130cdc22b.png" alt="云岭翻译" style="display: inline;">
+                                    <p>云岭翻译</p>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/down/html/271906.html" target="_blank"><img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20201009/ce1ca1a4017df479f00916b1e320b751.png" src="//pic.veryhuo.com/upload/soft/20201009/ce1ca1a4017df479f00916b1e320b751.png" alt="宜法律师版" style="display: inline;">
+                                    <p>宜法律师版</p>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/down/html/271821.html" target="_blank"><img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20201009/5257da981655faa703d1ce6d7d8b043b.png" src="//pic.veryhuo.com/upload/soft/20201009/5257da981655faa703d1ce6d7d8b043b.png" alt="飞行警察巴士司机" style="display: inline;">
+                                    <p>飞行警察巴士司机</p>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/down/html/271905.html" target="_blank"><img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20201009/dfc29aaeffa02ab5989b3c85651c98e4.jpg" src="//pic.veryhuo.com/upload/soft/20201009/dfc29aaeffa02ab5989b3c85651c98e4.jpg" alt="天天跳绳" style="display: inline;">
+                                    <p>天天跳绳</p>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/down/html/271898.html" target="_blank"><img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20201009/b8fb5f82a2bd84542aa602deace5f704.png" src="//pic.veryhuo.com/upload/soft/20201009/b8fb5f82a2bd84542aa602deace5f704.png" alt="知意配音破解版" style="display: inline;">
+                                    <p>知意配音破解版</p>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/down/html/271834.html" target="_blank"><img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20201009/a006c72c374f9b0961b4a19ab899317c.png" src="//pic.veryhuo.com/upload/soft/20201009/a006c72c374f9b0961b4a19ab899317c.png" alt="漫步粉碎者3D" style="display: inline;">
+                                    <p>漫步粉碎者3D</p>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/down/html/271915.html" target="_blank"><img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20201009/37bc72acfc77c9ab0dc9b9587a50b698.jpg" src="//pic.veryhuo.com/upload/soft/20201009/37bc72acfc77c9ab0dc9b9587a50b698.jpg" alt="每日养生" style="display: inline;">
+                                    <p>每日养生</p>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/down/html/271899.html" target="_blank"><img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20201009/d4c4f4266dcfc94f4301f5d1110b79ad.jpg" src="//pic.veryhuo.com/upload/soft/20201009/d4c4f4266dcfc94f4301f5d1110b79ad.jpg" alt="蓝莓派对" style="display: inline;">
+                                    <p>蓝莓派对</p>
+                                </a>
+                            </li>
+                                            </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--游戏-->
+    <div class="mainBody J_g_mouseover_tab" id="Game-box">
+        <!--开始游戏_mainBody -->
+        <div class="CGameTitle mt20">
+            <!-- 导航 -->
+            <i class="CGTAnd CGTAndA"></i>
+            <a style="display: block;" href="/down/class/662_1.html" class="more" rel="nofollow" target="_blank">更多+</a>
+            <a style="display: none;" href="/down/class/584_1.html" class="more" rel="nofollow" target="_blank">更多+</a>
+            <h2>游戏 <span>Game</span></h2>
+            <div class="J_tab gameTit"> 
+                <a href="/down/class/662_1.html" class="tab-item cur" target="_blank">单机游戏<span>/</span><i class="bot-arrow"></i></a>
+                <a href="/down/class/584_1.html" class="tab-item" target="_blank">网络游戏<span></span><i class="bot-arrow"></i></a> 
+            </div>
+        </div>
+        <!-- 导航结束 -->
+        <!--  内容 -->
+        <div class="TypeContent J_tab_cont yxContent">
+            <!-- 单机游戏-->
+            <div class="tab-cont-item" style="display: block;">
+                <div class="CGameCLList1">
+                    <ul>
+                                                    <li class="a-item">
+                                <a href="/down/html/271954.html" target="_blank">
+                                    <img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20201010/0108f4f1070069bf1722859917ad9687.jpg" src="//pic.veryhuo.com/upload/soft/20201010/0108f4f1070069bf1722859917ad9687.jpg" alt="整蛊邻居归来升级补丁" style="display: block;">
+                                </a>
+                                <div class="a-info"><a href="/down/html/271954.html" target="_blank">整蛊邻居归来升级补丁</a></div>
+                            </li>
+                                                    <li class="a-item">
+                                <a href="/down/html/271566.html" target="_blank">
+                                    <img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20201009/319dd2b1974b6944e3efc06ef6d49c14.jpg" src="//pic.veryhuo.com/upload/soft/20201009/319dd2b1974b6944e3efc06ef6d49c14.jpg" alt="轩辕剑7" style="display: block;">
+                                </a>
+                                <div class="a-info"><a href="/down/html/271566.html" target="_blank">轩辕剑7</a></div>
+                            </li>
+                                                    <li class="a-item">
+                                <a href="/down/html/271242.html" target="_blank">
+                                    <img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20200930/a6e2d3116b3025f62ad5e98a96c0b57d.jpg" src="//pic.veryhuo.com/upload/soft/20200930/a6e2d3116b3025f62ad5e98a96c0b57d.jpg" alt="不予播出" style="display: block;">
+                                </a>
+                                <div class="a-info"><a href="/down/html/271242.html" target="_blank">不予播出</a></div>
+                            </li>
+                                                    <li class="a-item">
+                                <a href="/down/html/270469.html" target="_blank">
+                                    <img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20200928/ea07416c6dddfdeb5eae970899826908.jpg" src="//pic.veryhuo.com/upload/soft/20200928/ea07416c6dddfdeb5eae970899826908.jpg" alt="网球世界巡回赛2" style="display: block;">
+                                </a>
+                                <div class="a-info"><a href="/down/html/270469.html" target="_blank">网球世界巡回赛2</a></div>
+                            </li>
+                                                    <li class="a-item">
+                                <a href="/down/html/270478.html" target="_blank">
+                                    <img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20200928/43c1d0c91f456b96b1b9af53d625fe09.jpg" src="//pic.veryhuo.com/upload/soft/20200928/43c1d0c91f456b96b1b9af53d625fe09.jpg" alt="海洋之心" style="display: block;">
+                                </a>
+                                <div class="a-info"><a href="/down/html/270478.html" target="_blank">海洋之心</a></div>
+                            </li>
+                                                    <li class="a-item">
+                                <a href="/down/html/270853.html" target="_blank">
+                                    <img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20200929/2c035abf688c139ba2468825ae79c0c4.jpg" src="//pic.veryhuo.com/upload/soft/20200929/2c035abf688c139ba2468825ae79c0c4.jpg" alt="星际裂谷2021" style="display: block;">
+                                </a>
+                                <div class="a-info"><a href="/down/html/270853.html" target="_blank">星际裂谷2021</a></div>
+                            </li>
+                                                    <li class="a-item">
+                                <a href="/down/html/270607.html" target="_blank">
+                                    <img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20200928/a2d4875223eb47353fe665c24cf3f585.jpg" src="//pic.veryhuo.com/upload/soft/20200928/a2d4875223eb47353fe665c24cf3f585.jpg" alt="骑士出征" style="display: block;">
+                                </a>
+                                <div class="a-info"><a href="/down/html/270607.html" target="_blank">骑士出征</a></div>
+                            </li>
+                                                    <li class="a-item">
+                                <a href="/down/html/270045.html" target="_blank">
+                                    <img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20200925/4f05a6d493806f40bd11ba2cee1f9d6b.jpg" src="//pic.veryhuo.com/upload/soft/20200925/4f05a6d493806f40bd11ba2cee1f9d6b.jpg" alt="漫野奇谭" style="display: block;">
+                                </a>
+                                <div class="a-info"><a href="/down/html/270045.html" target="_blank">漫野奇谭</a></div>
+                            </li>
+                                                    <li class="a-item">
+                                <a href="/down/html/270032.html" target="_blank">
+                                    <img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20200925/04be1d72bb23339d7aed050a812952c3.jpg" src="//pic.veryhuo.com/upload/soft/20200925/04be1d72bb23339d7aed050a812952c3.jpg" alt="四海兄弟最终版" style="display: block;">
+                                </a>
+                                <div class="a-info"><a href="/down/html/270032.html" target="_blank">四海兄弟最终版</a></div>
+                            </li>
+                                                    <li class="a-item">
+                                <a href="/down/html/269627.html" target="_blank">
+                                    <img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20200924/9f2b527428f345a07ced17f1aaf11038.jpg" src="//pic.veryhuo.com/upload/soft/20200924/9f2b527428f345a07ced17f1aaf11038.jpg" alt="车辆制造" style="display: block;">
+                                </a>
+                                <div class="a-info"><a href="/down/html/269627.html" target="_blank">车辆制造</a></div>
+                            </li>
+                                                    <li class="a-item">
+                                <a href="/down/html/269294.html" target="_blank">
+                                    <img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20200923/e80e7d6e3d3190ecfbe9fdd1902145b6.jpg" src="//pic.veryhuo.com/upload/soft/20200923/e80e7d6e3d3190ecfbe9fdd1902145b6.jpg" alt="布兰德的魔法师" style="display: block;">
+                                </a>
+                                <div class="a-info"><a href="/down/html/269294.html" target="_blank">布兰德的魔法师</a></div>
+                            </li>
+                                                    <li class="a-item">
+                                <a href="/down/html/269225.html" target="_blank">
+                                    <img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20200923/6e246a399515a21ff19fec20829bba32.jpg" src="//pic.veryhuo.com/upload/soft/20200923/6e246a399515a21ff19fec20829bba32.jpg" alt="戴森球计划" style="display: block;">
+                                </a>
+                                <div class="a-info"><a href="/down/html/269225.html" target="_blank">戴森球计划</a></div>
+                            </li>
+                                                    <li class="a-item">
+                                <a href="/down/html/269223.html" target="_blank">
+                                    <img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20200923/6e246a399515a21ff19fec20829bba32.jpg" src="//pic.veryhuo.com/upload/soft/20200923/6e246a399515a21ff19fec20829bba32.jpg" alt="戴森球计划" style="display: block;">
+                                </a>
+                                <div class="a-info"><a href="/down/html/269223.html" target="_blank">戴森球计划</a></div>
+                            </li>
+                                                    <li class="a-item">
+                                <a href="/down/html/268406.html" target="_blank">
+                                    <img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20200921/88e9f3ee8f0f3a6fb9d178607f5843f0.jpg" src="//pic.veryhuo.com/upload/soft/20200921/88e9f3ee8f0f3a6fb9d178607f5843f0.jpg" alt="终极海军上将无畏舰" style="display: block;">
+                                </a>
+                                <div class="a-info"><a href="/down/html/268406.html" target="_blank">终极海军上将无畏舰</a></div>
+                            </li>
+                                            </ul>
+                </div>
+            </div>
+            <!-- 单机游戏结束-->
+            <!-- 网络游戏 -->
+            <div class="tab-cont-item" style="display: none;">
+                <div class="CGameCLList1">
+                    <ul>
+                                                    <li class="a-item">
+                                <a href="/down/html/271948.html" target="_blank"><img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20201010/fe6728e1a30de7f41125d64918191052.jpg" src="//pic.veryhuo.com/upload/soft/20201010/fe6728e1a30de7f41125d64918191052.jpg" alt="苏立泰尔的阴谋" style="display: block;"></a>
+                                <div class="a-info"><a href="/down/html/271948.html" target="_blank">苏立泰尔的阴谋</a></div>
+                            </li>
+                                                    <li class="a-item">
+                                <a href="/down/html/271576.html" target="_blank"><img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20201009/ad006032689b446c82605ddcc6f5073f.jpg" src="//pic.veryhuo.com/upload/soft/20201009/ad006032689b446c82605ddcc6f5073f.jpg" alt="极限国度" style="display: block;"></a>
+                                <div class="a-info"><a href="/down/html/271576.html" target="_blank">极限国度</a></div>
+                            </li>
+                                                    <li class="a-item">
+                                <a href="/down/html/271248.html" target="_blank"><img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20200930/428ebb10daeb3ea2b7a49db93d3b1b35.jpg" src="//pic.veryhuo.com/upload/soft/20200930/428ebb10daeb3ea2b7a49db93d3b1b35.jpg" alt="手球21" style="display: block;"></a>
+                                <div class="a-info"><a href="/down/html/271248.html" target="_blank">手球21</a></div>
+                            </li>
+                                                    <li class="a-item">
+                                <a href="/down/html/270871.html" target="_blank"><img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20200929/877660f8557664f7d53c6f17ce09da02.jpg" src="//pic.veryhuo.com/upload/soft/20200929/877660f8557664f7d53c6f17ce09da02.jpg" alt="黎明在我家附近2021" style="display: block;"></a>
+                                <div class="a-info"><a href="/down/html/270871.html" target="_blank">黎明在我家附近2021</a></div>
+                            </li>
+                                                    <li class="a-item">
+                                <a href="/down/html/270456.html" target="_blank"><img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20200928/fb8bb60902021fd5c4de40e6fa5df267.jpg" src="//pic.veryhuo.com/upload/soft/20200928/fb8bb60902021fd5c4de40e6fa5df267.jpg" alt="足球经理2021破解版" style="display: block;"></a>
+                                <div class="a-info"><a href="/down/html/270456.html" target="_blank">足球经理2021破解版</a></div>
+                            </li>
+                                                    <li class="a-item">
+                                <a href="/down/html/269630.html" target="_blank"><img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20200924/9ecaf1d9ddf29346fd723b3587b8c357.jpg" src="//pic.veryhuo.com/upload/soft/20200924/9ecaf1d9ddf29346fd723b3587b8c357.jpg" alt="海盗指挥官" style="display: block;"></a>
+                                <div class="a-info"><a href="/down/html/269630.html" target="_blank">海盗指挥官</a></div>
+                            </li>
+                                                    <li class="a-item">
+                                <a href="/down/html/269289.html" target="_blank"><img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20200923/9074b11673bb7139dc63ed4dd2404578.jpg" src="//pic.veryhuo.com/upload/soft/20200923/9074b11673bb7139dc63ed4dd2404578.jpg" alt="拉格诺瑞姆" style="display: block;"></a>
+                                <div class="a-info"><a href="/down/html/269289.html" target="_blank">拉格诺瑞姆</a></div>
+                            </li>
+                                                    <li class="a-item">
+                                <a href="/down/html/268856.html" target="_blank"><img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20200922/99d5fe7e9cf0026f496ba7f8522939fd.jpg" src="//pic.veryhuo.com/upload/soft/20200922/99d5fe7e9cf0026f496ba7f8522939fd.jpg" alt="四传奇者" style="display: block;"></a>
+                                <div class="a-info"><a href="/down/html/268856.html" target="_blank">四传奇者</a></div>
+                            </li>
+                                                    <li class="a-item">
+                                <a href="/down/html/268071.html" target="_blank"><img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20200918/7f6762cc9075e261a1d5841ec12c1287.jpg" src="//pic.veryhuo.com/upload/soft/20200918/7f6762cc9075e261a1d5841ec12c1287.jpg" alt="草泥马足球全明星" style="display: block;"></a>
+                                <div class="a-info"><a href="/down/html/268071.html" target="_blank">草泥马足球全明星</a></div>
+                            </li>
+                                                    <li class="a-item">
+                                <a href="/down/html/268435.html" target="_blank"><img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20200921/cccaadd6d7c6175a339727fb2f5bd0ed.jpg" src="//pic.veryhuo.com/upload/soft/20200921/cccaadd6d7c6175a339727fb2f5bd0ed.jpg" alt="纳赫鲁博王国地下城混沌护身符" style="display: block;"></a>
+                                <div class="a-info"><a href="/down/html/268435.html" target="_blank">纳赫鲁博王国地下城混沌护身符</a></div>
+                            </li>
+                                                    <li class="a-item">
+                                <a href="/down/html/267261.html" target="_blank"><img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20200916/f9cbb987bad4ef97962ae42dad9d5f32.jpg" src="//pic.veryhuo.com/upload/soft/20200916/f9cbb987bad4ef97962ae42dad9d5f32.jpg" alt="爬行世界4" style="display: block;"></a>
+                                <div class="a-info"><a href="/down/html/267261.html" target="_blank">爬行世界4</a></div>
+                            </li>
+                                                    <li class="a-item">
+                                <a href="/down/html/266898.html" target="_blank"><img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20200915/949aad4ea21298c8097a7cbad5650d92.jpg" src="//pic.veryhuo.com/upload/soft/20200915/949aad4ea21298c8097a7cbad5650d92.jpg" alt="粉碎精神巴西首位拳击手" style="display: block;"></a>
+                                <div class="a-info"><a href="/down/html/266898.html" target="_blank">粉碎精神巴西首位拳击手</a></div>
+                            </li>
+                                                    <li class="a-item">
+                                <a href="/down/html/267656.html" target="_blank"><img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20200917/7d2a9d4d396267993650eed2b9636819.jpg" src="//pic.veryhuo.com/upload/soft/20200917/7d2a9d4d396267993650eed2b9636819.jpg" alt="霓虹面条" style="display: block;"></a>
+                                <div class="a-info"><a href="/down/html/267656.html" target="_blank">霓虹面条</a></div>
+                            </li>
+                                                    <li class="a-item">
+                                <a href="/down/html/266133.html" target="_blank"><img class="lazy" data-original="//pic.veryhuo.com/upload/soft/20200911/efdd99d38043ded502c4fadefa3598e6.jpg" src="//pic.veryhuo.com/upload/soft/20200911/efdd99d38043ded502c4fadefa3598e6.jpg" alt="黑暗传说" style="display: block;"></a>
+                                <div class="a-info"><a href="/down/html/266133.html" target="_blank">黑暗传说</a></div>
+                            </li>
+                                            </ul>
+                </div>
+            </div>
+            <!-- 网络游戏结束-->
+        </div>
+    </div>
+    <!--分类更新-->
+    <div class="softBox">
+        <div class="FLLeft bor clearfix">
+            <div class="tita tit-bor-g">
+                <strong class="b"><a href="/down/class/363_1.html">安卓软件</a></strong>
+            </div>
+            <dl class="sjfl clearfix">
+                <dd>
+                    <a href="/down/class/610_1.html" target="_blank">手机工具</a>
+                    <a href="/down/class/619_1.html" target="_blank">手机浏览</a>
+                    <a href="/down/class/614_1.html" target="_blank">掌上输入</a>
+                    <a href="/down/class/622_1.html" target="_blank">教育培训</a>
+                    <a href="/down/class/621_1.html" target="_blank">图片图像</a>
+                    <a href="/down/class/631_1.html" target="_blank">聊天社交</a>
+                    <a href="/down/class/618_1.html" target="_blank">实用工具</a>
+                    <a href="/down/class/644_1.html" target="_blank">生活服务</a>
+                    <a href="/down/class/624_1.html" target="_blank">杂类应用</a>
+                    <a href="/down/class/635_1.html" target="_blank">掌上阅读</a>
+                    <a href="/down/class/638_1.html" target="_blank">商务办公</a>
+                    <a href="/down/class/664_1.html" target="_blank">彩票软件</a>
+                </dd>
+            </dl>
+        </div>
+        <div class="FLLeft bor clearfix">
+            <div class="tita tit-bor-g">
+                <strong class="b"><a href="/down/class/611_1.html">安卓游戏</a></strong>
+            </div>
+            <dl class="sjfl clearfix">
+                <dd>
+                    <a href="/down/class/645_1.html" target="_blank">休闲益智</a>
+                    <a href="/down/class/646_1.html" target="_blank">角色扮演</a>
+                    <a href="/down/class/647_1.html" target="_blank">动作射击</a>
+                    <a href="/down/class/648_1.html" target="_blank">模拟经营</a>
+                    <a href="/down/class/649_1.html" target="_blank">体育竞技</a>
+                    <a href="/down/class/650_1.html" target="_blank">赛车竞速</a>
+                    <a href="/down/class/656_1.html" target="_blank">网游专区</a>
+                    <a href="/down/class/652_1.html" target="_blank">塔防消除</a>
+                    <a href="/down/class/653_1.html" target="_blank">手游辅助</a>
+                    <a href="/down/class/655_1.html" target="_blank">棋牌桌游</a>
+                    <a href="/down/class/1153_1.html" target="_blank">冒险解密</a>
+                    <a href="/down/class/1154_1.html" target="_blank">音乐游戏</a>
+                </dd>
+            </dl>
+        </div>
+        <div class="FLLeft bor clearfix">
+            <div class="tita tit-bor-g">
+                <strong class="b"><a href="/down/class/986_1.html">苹果软件</a></strong>
+            </div>
+            <dl class="sjfl clearfix">
+                <dd>
+                    <a href="/down/class/991_1.html" target="_blank">手机工具</a>
+                    <a href="/down/class/992_1.html" target="_blank">手机浏览</a>
+                    <a href="/down/class/994_1.html" target="_blank">影音娱乐</a>
+                    <a href="/down/class/995_1.html" target="_blank">交通出行</a>
+                    <a href="/down/class/996_1.html" target="_blank">照片图像</a>
+                    <a href="/down/class/997_1.html" target="_blank">掌上输入</a>
+                    <a href="/down/class/998_1.html" target="_blank">教育培训</a>
+                    <a href="/down/class/1000_1.html" target="_blank">金融理财</a>
+                    <a href="/down/class/1001_1.html" target="_blank">短信通话</a>
+                    <a href="/down/class/1159_1.html" target="_blank">聊天社交</a>
+                    <a href="/down/class/1161_1.html" target="_blank">生活服务</a>
+                    <a href="/down/class/1185_1.html" target="_blank">彩票软件</a>
+                </dd>
+            </dl>
+        </div>
+        <div class="FLLeft bor clearfix">
+            <div class="tita tit-bor-g">
+                <strong class="b"><a href="/down/class/987_1.html">苹果游戏</a></strong>
+            </div>
+            <dl class="sjfl clearfix">
+                <dd>
+                    <a href="/down/class/1002_1.html" target="_blank">休闲益智</a>
+                    <a href="/down/class/1003_1.html" target="_blank">角色扮演</a>
+                    <a href="/down/class/1004_1.html" target="_blank">动作射击</a>
+                    <a href="/down/class/1005_1.html" target="_blank">模拟经营</a>
+                    <a href="/down/class/1006_1.html" target="_blank">体育竞技</a>
+                    <a href="/down/class/1007_1.html" target="_blank">赛车竞速</a>
+                    <a href="/down/class/1008_1.html" target="_blank">网游专区</a>
+                    <a href="/down/class/1009_1.html" target="_blank">塔防消除</a>
+                    <a href="/down/class/1010_1.html" target="_blank">手游辅助</a>
+                    <a href="/down/class/1011_1.html" target="_blank">存档补丁</a>
+                    <a href="/down/class/1012_1.html" target="_blank">棋牌桌游</a>
+                    <a href="/down/class/1175_1.html" target="_blank">冒险解谜</a>
+                </dd>
+            </dl>
+        </div>
+        <div class="FLLeft bor clearfix">
+            <div class="tita tit-bor-g">
+                <strong class="b"><a href="/computersoft.html">电脑软件</a></strong>
+            </div>
+            <dl class="sjfl clearfix">
+                <dd>
+                    <a href="/down/class/443_1.html" target="_blank">下载工具</a>
+                    <a href="/down/class/558_1.html" target="_blank">邮箱软件</a>
+                    <a href="/down/class/432_1.html" target="_blank">浏览辅助</a>
+                    <a href="/down/class/1147_1.html" target="_blank">聊天工具</a>
+                    <a href="/down/class/564_1.html" target="_blank">杀毒软件</a>
+                    <a href="/down/class/442_1.html" target="_blank">办公软件</a>
+                    <a href="/down/class/555_1.html" target="_blank">驱动相关</a>
+                    <a href="/down/class/587_1.html" target="_blank">看图软件</a>
+                    <a href="/down/class/1115_1.html" target="_blank">股票软件</a>
+                    <a href="/down/class/1116_1.html" target="_blank">彩票工具</a>
+                    <a href="/down/class/1064_1.html" target="_blank">滤镜插件</a>
+                    <a href="/down/class/437_1.html" target="_blank">压缩解压</a>
+                </dd>
+            </dl>
+        </div>
+        <div class="FLLeft bor clearfix">
+            <div class="tita tit-bor-g">
+                <strong class="b"><a href="/computergame.html">电脑游戏</a></strong>
+            </div>
+            <dl class="sjfl clearfix">
+                <dd>
+                    <a href="/down/class/583_1.html" target="_blank">游戏工具</a>
+                    <a href="/down/class/584_1.html" target="_blank">网络游戏</a>
+                    <a href="/down/class/585_1.html" target="_blank">游戏辅助</a>
+                    <a href="/down/class/586_1.html" target="_blank">趣味软件</a>
+                    <a href="/down/class/632_1.html" target="_blank">游戏补丁</a>
+                    <a href="/down/class/633_1.html" target="_blank">游戏地图</a>
+                    <a href="/down/class/661_1.html" target="_blank">游戏平台</a>
+                    <a href="/down/class/662_1.html" target="_blank">单机游戏</a>
+                    <a href="/down/class/553_1.html" target="_blank">主题壁纸</a>
+                    <a href="/down/class/557_1.html" target="_blank">浏览器</a>
+                    <a href="/down/class/603_1.html" target="_blank">输入法</a>
+                    <a href="/down/class/556_1.html" target="_blank">QQ软件区</a>
+                </dd>
+            </dl>
+        </div>
+    </div>
+    <!--友情链接-->
+    <div class="mainBody FLink">
+        <span>友情链接</span><span class="f2">百度IP权重小于 5 的所有链接均已移到<a href="http://www.veryhuo.com/androidsoft.html" target="_blank">内页</a>不做通知！</span>
+        <p>
+                            <a href="https://m.veryhuo.com/" target="_blank">最火手机站</a>
+                            <a href="https://www.veryhuo.com/youxi/" target="_blank">捕鱼游戏</a>
+                            <a href="https://www.ithome.com" target="_blank">IT之家</a>
+                            <a href="https://www.66game.cn" target="_blank">街机游戏</a>
+                            <a href="http://www.pcsoft.com.cn" target="_blank">PC下载网</a>
+                            <a href="http://sj.zol.com.cn/" target="_blank">ZOL手机下载</a>
+                            <a href="http://www.ddooo.com" target="_blank">多多软件站</a>
+                            <a href="http://www.zdfans.com/" target="_blank">zd423</a>
+                            <a href="http://www.32r.com" target="_blank">3322软件站</a>
+                            <a href="http://www.wmzhe.com/" target="_blank">完美下载</a>
+                            <a href="https://www.kuku9.com" target="_blank">手机游戏</a>
+                            <a href="http://www.pc0359.cn/" target="_blank">河东软件园</a>
+                            <a href="https://www.52z.com/" target="_blank">飞翔下载</a>
+                            <a href="https://www.16pic.com/" target="_blank">图片素材</a>
+                            <a href="https://www.3d66.com/" target="_blank">3d溜溜网</a>
+                            <a href="https://www.ruan8.com/" target="_blank">软吧下载</a>
+                            <a href="https://www.crsky.com/" target="_blank">非凡软件站</a>
+                            <a href="https://www.apk3.com/" target="_blank">APK3安卓网</a>
+                            <a href="http://www.17yy.com/" target="_blank">经典小游戏</a>
+                            <a href="https://www.xiaopi.com/" target="_blank">小皮游戏网</a>
+                            <a href="http://www.ucbug.com/" target="_blank">UCBUG游戏网</a>
+                            <a href="http://www.yxbao.com/" target="_blank">游戏堡网</a>
+                            <a href="https://www.romzhijia.net" target="_blank">rom之家</a>
+                            <a href="http://www.minecraftxz.com/" target="_blank">我的世界</a>
+                            <a href="http://www.pipaw.com/" target="_blank">琵琶网</a>
+                            <a href="http://www.iefans.net/" target="_blank">IE中文浏览器</a>
+                            <a href="http://www.downyi.com/" target="_blank">当易网</a>
+                            <a href="http://www.uc129.com" target="_blank">红警之家</a>
+                            <a href="http://www.winwin7.com" target="_blank">win7旗舰版</a>
+                            <a href="https://www.160.com" target="_blank">驱动人生</a>
+                            <a href="http://www.vipcn.com" target="_blank">清风手游网</a>
+                            <a href="http://www.ouyaoxiazai.com" target="_blank">偶要软件</a>
+                            <a href="http://www.dangbei.com/" target="_blank">当贝市场</a>
+                            <a href="http://www.opdown.com" target="_blank">欧普软件园</a>
+                            <a href="https://www.40407.com" target="_blank">40407游戏网</a>
+                            <a href="http://www.xyzs.com/" target="_blank">xy苹果助手</a>
+                            <a href="http://www.jisuxz.com" target="_blank">极速下载</a>
+                            <a href="http://www.xue51.com" target="_blank">软件学堂</a>
+                            <a href="http://www.golue.com/" target="_blank">游戏爱好者</a>
+                            <a href="http://www.downza.cn/support/friendlink.html" target="_blank">下载之家</a>
+                            <a href="http://www.139y.com" target="_blank">手游下载</a>
+                            <a href="https://www.11773.com" target="_blank">11773手游网</a>
+                            <a href="http://www.kuai8.com/" target="_blank">快吧游戏</a>
+                            <a href="https://www.hackhome.com/" target="_blank">嗨客手机站</a>
+                            <a href="https://www.youxiniao.com/" target="_blank">游戏鸟</a>
+                            <a href="https://www.fixdown.com/" target="_blank">全方位下载站</a>
+                            <a href="https://www.game234.com/" target="_blank">234游戏网</a>
+                            <a href="http://www.mdpda.com/" target="_blank">软件下载</a>
+                            <a href="http://www.danji6.com" target="_blank">游乐网</a>
+                            <a href="http://www.eeyy.com/" target="_blank">一游网</a>
+                            <a href="http://www.121down.com" target="_blank">121下载站</a>
+                            <a href="http://www.07073.com/" target="_blank">网页游戏</a>
+                            <a href="http://www.xitongtiandi.net/" target="_blank">win10系统下载</a>
+                            <a href="http://www.rsdown.cn/" target="_blank">红软基地</a>
+                            <a href="http://www.bkill.com/" target="_blank">破解手游下载</a>
+                            <a href="https://www.3xiazai.com/" target="_blank">独木成林</a>
+                            <a href="https://www.wywyx.com/" target="_blank">玩一玩游戏网</a>
+                            <a href="https://www.upandashi.com" target="_blank">U盘大师</a>
+                            <a href="https://www.liulanqi.net/" target="_blank">浏览器家园</a>
+                            <a href="https://www.gmz88.com/" target="_blank">手游下载</a>
+                            <a href="https://www.3454.com/" target="_blank">3454手机游戏</a>
+                            <a href="http://www.aixuefu.com/" target="_blank">爱学府软件下载</a>
+                            <a href="https://www.18183.com/" target="_blank">18183手游网</a>
+                            <a href="http://www.h5uc.com/" target="_blank">核弹头下载站</a>
+                            <a href="https://www.douxie.com/" target="_blank">斗蟹游戏网</a>
+                            <a href="https://www.haote.com/" target="_blank">手机游戏下载</a>
+                     
+        </p>
+    </div>
+    <!--底部-->
+
+<!--底部-->
+    <div id="footer">
+        <div class="bottomText greena">
+            <a href="/help/guanyu.html" rel="nofollow" target="_blank">关于本站</a> ｜
+            <a href="/help/mianze.html" rel="nofollow" target="_blank">版权声明</a> ｜
+            <a href="/sitemap.html" target="_blank">网站地图</a>
+        </div>
+        <p class="tips_text" style="line-height: 24px;margin-top: 8px;">
+            <span style="margin-bottom: -24px;">Copyright © 2011-2019 最火软件站(www.veryhuo.com).All Rights Reserved</span>
+            <br>
+            <span>备案编号：<a href="https://beian.miit.gov.cn" target="_balnk" style="text-decoration:none">晋ICP备19008277号-4</a>，版权投诉请发邮件到341261131#qq.com(请将#换成@)，我们会尽快处理</span>
+            <br>
+            <span>本站资源均收集整理于互联网，其著作权归原作者所有，如果有侵犯您权利的资源，请来信告知，我们将及时撤销相应资源</span>
+            <br>
+            <span>温馨提示：抵制不良游戏 拒绝盗版游戏 注意自我保护 谨防受骗上当 适度游戏益脑 沉迷游戏伤身 合理安排时间 享受健康生活</span>
+        </p>
+        <div class="wxewm">
+            <img src="/static/images/gzhewm.jpg" alt="最火软件站" style="width: 100px; height: 100px;">
+            <p>关注公众号</p>
+        </div>
+    </div>
+    <!--回到顶部按钮-->
+    <div class="backtop"><span></span></div>
+    <script src="/static/js/jquery.js"></script><script src="/static/js/home/common.js"></script>
+<script src="/static/js/home/index.js?t=20200521"></script>
+</body>
+</html>
